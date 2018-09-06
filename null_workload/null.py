@@ -2,6 +2,7 @@ from radical.entk import Pipeline, Stage, Task, AppManager
 import os
 import traceback
 import sys
+from hyperspace.space import create_hyperspace
 
 # ------------------------------------------------------------------------------
 # Set default verbosity
@@ -11,34 +12,27 @@ if os.environ.get('RADICAL_ENTK_VERBOSE') == None:
 
 
 # creates a class of type Task
-class GenHyperTask(Task):
-    def __init__(self, name):
+class SpaceTask():
+    
+    def CreateSpaces(self, parameters): 
 
-        self.name = name
-        self.pre_exec = ['export PATH=/u/sciteam/dakka/stress-ng/stress-ng-0.09.34:$PATH']
-        self.executable = ['stress-ng']
-        self.arguments = ['-c', '1', '-t', '600']
-        
-        self.cpu_reqs =  {
+        self.hparams = parameters
+        hyperspaces = create_hyperspace(hyperparameters)
 
-                        'processes': 1,
-                        'process_type': None/MPI,
-                        'threads_per_process': 1,
-                        'thread_type': None/OpenMP
-                    } 
-        self.post_exec = [] 
+    return hyperspaces 
+    
 
-class HyperSpaceTask(Task, parameters):
-    def __init__(self, name, parameters):
+
+class HyperSpaceTask(Task):
+    def __init__(self, name, parameter):
 
         self.name = name
         self.executable = ['stress-ng']
-        self.arguments = ['-c', '1', '-t', '600']
-        self.parameters = parameters 
-
+        self.arguments = ['-c', '24', '-t', '600']
+        self.parameters = parameter
         self.cpu_reqs =  {
         
-                        'processes': 1,
+                        'processes': 24,
                         'process_type': None/MPI,
                         'threads_per_process': 1,
                         'thread_type': None/OpenMP
@@ -48,44 +42,57 @@ class HyperSpaceTask(Task, parameters):
 
 if __name__ == '__main__':
 
-    # arguments for stress-ng 
-    cores_per_task = sys.argv[1] 
+    # arguments for AppManager
+    total_cores = sys.argv[1] 
     duration = sys.argv[2] 
+
+
+    # arguments for hyperdrive
+
+    # * objective function
+    # * model 
 
     # Set up parameters
 
-    # For each model:
-        # generate hyperparameters 
+    # assign lower and upper bounds of hyperparameters 
+    # for each model: 
+        # generate hyperparameters
         # for each hyperparameter: 
-            # assign hyperspaces 
+            # assign hyperspace 
+            # run hyperspace  
+
+
+    # input is hyperparameters's upper and lower bounds
+    # compute hyperparameters for input to optimizations
+
+    # For each model
+        # for each hyperparameter:
             # run hyperspaces 
 
+    # two sets of hyperparameters (lower, upper) boundary 
+
+    params = [(0,7), (10,17)] 
+    spaces = SpaceTask.CreateSpaces(parameters = params)
 
     pipelines = set()
     p = Pipeline()
 
-    steps = ['create-parameters', 'hyperspaces']
-    hparams = [(0,7), (10,17)] # two sets of hyperparameters (lower, upper)
+    s = Stage() # optimizations (2**H tasks) 
 
-    s1 = Stage() # create hyperparameters step 
-    t = GenHyperTask(name = 'create-parameters') # returns hyperspaces 
-    s1.add_tasks(t)
+    models = ['GP']
 
-    s2 = Stage() # optimizations (2**H tasks) 
+    # create a dictionary of model: hyperparameter boundary tuple 
 
-    for i in (len(hparams)**2):
-        t = HyperSpaceTask(name = 'optimization_{}'.format(i), parameter) 
-        t.arguments = []
-        s2.add_tasks(t)
-    p.add_stage(s2)
+    for x in len(models):
+        
+        # define model parameters, hyperparameters, objective function
+        for i in (len(hparams)**2):
 
+            # just fix the parameter for each, create a dictionary 
+            t = HyperSpaceTask(name = 'optimization_{}'.format(i), parameter = i) 
+            s.add_tasks(t)
 
-    # for step in workflow:
-    #     s, t = Stage(), NullTask(name=step, cores=cores_per_pipeline)
-    #     t.arguments = ['replica_{}/lambda_{}/{}.conf'.format(replica, ld, step), '&>', 'replica_{}/lambda_{}/{}.log'.format(replica, ld, step)]
-    #     s.add_tasks(t)
-    #     p.add_stage(s)
-
+    p.add_stage(s)
     pipelines.add(p)
 
 
@@ -99,8 +106,8 @@ if __name__ == '__main__':
     amgr = AppManager()
     amgr.resource_desc = {
         'resource': 'xsede.bridges',
-        'walltime': 10,
-        'cpus': 1,
+        'walltime': duration,
+        'cpus': total_cores,
         'rmq_cleanup': true,
         'autoterminate': true,
         'port' = 33048,
