@@ -15,8 +15,10 @@ class HyperSpaceTask(Task):
     def __init__(self, name, parameter):
 
         self.name = name
-        self.executable = ['stress-ng']
-        self.arguments = ['-c', '24', '-t', '600']
+        self.executable = ['/bin/sleep']
+        self.arguments = ['100']
+        # self.arguments = ['-c', '24', '-t', '600']
+        # self.arguments = ['.sh file']
         self.parameters = parameter
         self.cpu_reqs =  {
         
@@ -68,7 +70,7 @@ if __name__ == '__main__':
         'cpus': total_cores,
         'rmq_cleanup': true,
         'autoterminate': true,
-        'port' = 33048,
+        'port' : 33048,
         'hostname': 'localhost'}
 
 
