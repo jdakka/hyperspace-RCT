@@ -11,18 +11,6 @@ if os.environ.get('RADICAL_ENTK_VERBOSE') == None:
     os.environ['RADICAL_ENTK_VERBOSE'] = 'INFO'
 
 
-# creates a class of type Task
-class SpaceTask():
-    
-    def CreateSpaces(self, parameters): 
-
-        self.hparams = parameters
-        hyperspaces = create_hyperspace(hyperparameters)
-
-    return hyperspaces 
-    
-
-
 class HyperSpaceTask(Task):
     def __init__(self, name, parameter):
 
@@ -43,62 +31,33 @@ class HyperSpaceTask(Task):
 if __name__ == '__main__':
 
     # arguments for AppManager
-    total_cores = sys.argv[1] 
+    total_cores = sys.argv[1] # 2**H*24 
     duration = sys.argv[2] 
 
 
-    # arguments for hyperdrive
+    # define the global search space bounds for each search dimension
 
-    # * objective function
-    # * model 
+    hparams = [(0,7), (10,17)] 
 
-    # Set up parameters
+    # generate all combinations of search subspaces (hyperspaces)
 
-    # assign lower and upper bounds of hyperparameters 
-    # for each model: 
-        # generate hyperparameters
-        # for each hyperparameter: 
-            # assign hyperspace 
-            # run hyperspace  
-
-
-    # input is hyperparameters's upper and lower bounds
-    # compute hyperparameters for input to optimizations
-
-    # For each model
-        # for each hyperparameter:
-            # run hyperspaces 
-
-    # two sets of hyperparameters (lower, upper) boundary 
-
-    params = [(0,7), (10,17)] 
-    spaces = SpaceTask.CreateSpaces(parameters = params)
+    spaces = SpaceTask.CreateSpaces(parameters = hparams)
 
     pipelines = set()
     p = Pipeline()
+    s = Stage() # 1 stage of bag-of-tasks (2**H tasks)
 
-    s = Stage() # optimizations (2**H tasks) 
-
-    models = ['GP']
-
-    # create a dictionary of model: hyperparameter boundary tuple 
-
-    for x in len(models):
-        
-        # define model parameters, hyperparameters, objective function
-        for i in (len(hparams)**2):
-
-            # just fix the parameter for each, create a dictionary 
-            t = HyperSpaceTask(name = 'optimization_{}'.format(i), parameter = i) 
-            s.add_tasks(t)
+    for i in (len(hparams)**2): # for each hyperspace
+    
+        t = HyperSpaceTask(name = 'optimization_{}'.format(i), parameter = i) 
+        # run Bayesian optimization for N-iterations in parallel
+        s.add_tasks(t)
 
     p.add_stage(s)
     pipelines.add(p)
 
-
     # Resource and AppManager
 
-    
     amgr.workflow = pipelines
     amgr.shared_data = []
 
