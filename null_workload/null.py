@@ -19,15 +19,14 @@ class HyperSpaceTask(Task):
         self.arguments = ['100']
         # self.arguments = ['-c', '24', '-t', '600']
         # self.arguments = ['.sh file']
-        # self.parameters = parameter
       	self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 24, 'process_type': None}
 
 
 if __name__ == '__main__':
 
     # arguments for AppManager
-    total_cores = int(sys.argv[1]) # 2**H*24 
-    duration = int(sys.argv[2]) 
+    # total_cores = int(sys.argv[1])*24 # 2**H*24 
+    duration = int(sys.argv[1]) 
 
 
     # define the global search space bounds for each search dimension
@@ -67,9 +66,10 @@ if __name__ == '__main__':
     amgr.shared_data = []
    
     amgr.resource_desc = {
-        'resource': 'local.localhost',
+        'resource': 'xsede.bridges',
         'walltime': duration,
-        'cpus': total_cores}
+        'cpus': (len(hparams)**2)*24,
+        'access_schema': 'gsissh'}
        
 
 
