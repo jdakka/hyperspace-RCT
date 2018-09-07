@@ -2,7 +2,7 @@ from radical.entk import Pipeline, Stage, Task, AppManager
 import os
 import traceback
 import sys
-from hyperspace.space import create_hyperspace
+# from hyperspace.space import create_hyperspace
 
 # ------------------------------------------------------------------------------
 # Set default verbosity
@@ -27,7 +27,6 @@ class HyperSpaceTask(Task):
                     }
 
 
-
 if __name__ == '__main__':
 
     # arguments for AppManager
@@ -41,7 +40,7 @@ if __name__ == '__main__':
 
     # generate all combinations of search subspaces (hyperspaces)
 
-    spaces = SpaceTask.CreateSpaces(parameters = hparams)
+    # spaces = SpaceTask.CreateSpaces(parameters = hparams)
 
     pipelines = set()
     p = Pipeline()
