@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     # define the global search space bounds for each search dimension
 
-    hparams = [(0,7), (10,17)] 
+    hparams = [(0,7), (10,17), (10,17), (10,17), (10,17), (10,17), (10,17), (10,17)] 
 
     # generate all combinations of search subspaces (hyperspaces)
 
