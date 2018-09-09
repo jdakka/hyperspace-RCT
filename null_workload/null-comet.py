@@ -56,7 +56,7 @@ if __name__ == '__main__':
         # t.parameters = parameter
         t.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 24, 'process_type': None}
 
-    s.add_tasks(t)
+        s.add_tasks(t)
 
     p.add_stages(s)
     pipelines.add(p)
