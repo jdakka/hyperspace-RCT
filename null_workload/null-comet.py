@@ -47,7 +47,7 @@ if __name__ == '__main__':
         # t = HyperSpaceTask(name = 'optimization_{}'.format(i), parameter = i) 
         # run Bayesian optimization for N-iterations in parallel
         t = Task()
-    t.name = 'optimization_{}'.format(i)
+        t.name = 'optimization_{}'.format(i)
         t.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
         t.executable = ['stress-ng'] 
         t.arguments = ['-c', '24', '-t', '600']
