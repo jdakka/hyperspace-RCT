@@ -48,8 +48,9 @@ if __name__ == '__main__':
         # run Bayesian optimization for N-iterations in parallel
         t = Task()
 	t.name = 'optimization_{}'.format(i)
-        t.executable = ['/bin/sleep']
-        t.arguments = ['100']
+        t.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
+        t.executable = ['stress-ng'] 
+        t.arguments = ['-c', '24', '-t', '600']
         # self.arguments = ['-c', '24', '-t', '600']
         # self.arguments = ['.sh file']
         # t.parameters = parameter
@@ -66,11 +67,11 @@ if __name__ == '__main__':
     amgr.shared_data = []
    
     amgr.resource_desc = {
-        'resource': 'xsede.bridges',
+        'resource': 'xsede.comet',
+        'project' : 'unc100',
+        'queue' : 'compute',
         'walltime': duration,
         'cpus': (len(hparams)**2)*24,
         'access_schema': 'gsissh'}
        
-
-
     amgr.run()
