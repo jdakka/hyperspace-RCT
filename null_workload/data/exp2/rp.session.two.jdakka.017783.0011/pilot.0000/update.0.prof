@@ -1,0 +1,7 @@
+#time,event,comp,thread,uid,state,msg
+1536522877.2195,sync_abs,update.0,MainThread,,,comet-21-01.sdsc.edu:10.21.250.166:1536522877.21:1536522877.2:ntp
+1536522877.2578,END,update.0,MainThread,,,
+1536522877.6726,component_init,update.0,MainThread,,,
+1536523518.2731,flush,update.0,MainThread,,,
+1536523518.2753,component_final,update.0,MainThread,,,
+1536523518.2753,END,update.0,MainThread,,,

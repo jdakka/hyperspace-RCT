@@ -1,0 +1,12 @@
+#time,event,comp,thread,uid,state,msg
+1536520776.7375,sync_abs,radical.entk.task_manager.0000-obj,MainThread,,,localhost.localdomain:138.201.86.166:1536520776.73:1536520776.73:ntp
+1536520776.7590,tmgr obj created,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1536520776.7592,creating tmgr process,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1536520776.7600,starting tmgr process,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1536520776.7621,creating heartbeat thread,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1536520776.7629,starting heartbeat thread,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1536520776.7632,heartbeat thread started,radical.entk.task_manager.0000-obj,heartbeat,task_manager.0000,,
+1536521401.5986,tmgr process terminated,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1536521406.8443,terminating heartbeat thread,radical.entk.task_manager.0000-obj,heartbeat,task_manager.0000,,
+1536521406.8447,heartbeat thread terminated,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1536521406.8447,END,radical.entk.task_manager.0000-obj,MainThread,,,

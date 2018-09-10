@@ -1,0 +1,526 @@
+2018-09-09 12:54:36,855: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 12:54:36,855: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    :                      pid/tid: 9220/MainThread
+2018-09-09 12:54:36,855: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : initialize agent_0.staging.output.0.child
+2018-09-09 12:54:36,866: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : cfg: {'agent_launch_method': 'ORTE',
+ 'agent_name': 'agent_0',
+ 'agents': {},
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://198.202.113.101:42147',
+                                       'addr_out': 'tcp://198.202.113.101:44929',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://198.202.113.101:40395',
+                                       'addr_out': 'tcp://198.202.113.101:41545',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://198.202.113.101:45290',
+                                        'addr_out': 'tcp://198.202.113.101:39854',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://198.202.113.101:41831',
+                                           'addr_out': 'tcp://198.202.113.101:37772',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://198.202.113.101:43007',
+                                            'addr_out': 'tcp://198.202.113.101:37172',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://198.202.113.101:46414',
+                                         'addr_out': 'tcp://198.202.113.101:45962',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://198.202.113.101:40559',
+                                'addr_out': 'tcp://198.202.113.101:42550',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://198.202.113.101:42515',
+                            'addr_out': 'tcp://198.202.113.101:44705',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://198.202.113.101:46055',
+                              'addr_out': 'tcp://198.202.113.101:33003',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'cname': 'AgentStagingOutputComponent',
+ 'components': {},
+ 'cores': 1536,
+ 'cores_per_node': 24,
+ 'count': 1,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://username:password12@ds229609.mlab.com:29609/bridges-hyperspace',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 0,
+ 'logdir': '.',
+ 'lrms': 'SLURM',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_node': 24,
+               'gpus_per_node': 0,
+               'lm_info': {'cores_per_node': 24,
+                           'dvm_uri': '3404857344.0;tcp://10.22.250.166,198.202.113.101,10.21.250.166,192.168.33.101:41820;ud://21649.17856.1',
+                           'version_info': {'ORTE': {'version': '3.0.0a1',
+                                                     'version_detail': 'v2.x-dev-3722-g578d881'}}},
+               'name': 'Slurm',
+               'node_list': [['comet-21-01', 'comet-21-01'],
+                             ['comet-21-02', 'comet-21-02'],
+                             ['comet-21-03', 'comet-21-03'],
+                             ['comet-21-04', 'comet-21-04'],
+                             ['comet-21-05', 'comet-21-05'],
+                             ['comet-21-07', 'comet-21-07'],
+                             ['comet-21-13', 'comet-21-13'],
+                             ['comet-21-14', 'comet-21-14'],
+                             ['comet-21-15', 'comet-21-15'],
+                             ['comet-21-16', 'comet-21-16'],
+                             ['comet-21-17', 'comet-21-17'],
+                             ['comet-21-18', 'comet-21-18'],
+                             ['comet-21-19', 'comet-21-19'],
+                             ['comet-21-21', 'comet-21-21'],
+                             ['comet-21-22', 'comet-21-22'],
+                             ['comet-21-23', 'comet-21-23'],
+                             ['comet-21-24', 'comet-21-24'],
+                             ['comet-21-25', 'comet-21-25'],
+                             ['comet-21-26', 'comet-21-26'],
+                             ['comet-21-27', 'comet-21-27'],
+                             ['comet-21-28', 'comet-21-28'],
+                             ['comet-21-29', 'comet-21-29'],
+                             ['comet-21-30', 'comet-21-30'],
+                             ['comet-21-31', 'comet-21-31'],
+                             ['comet-21-32', 'comet-21-32'],
+                             ['comet-21-33', 'comet-21-33'],
+                             ['comet-21-34', 'comet-21-34'],
+                             ['comet-21-35', 'comet-21-35'],
+                             ['comet-21-36', 'comet-21-36'],
+                             ['comet-21-37', 'comet-21-37'],
+                             ['comet-21-38', 'comet-21-38'],
+                             ['comet-21-39', 'comet-21-39'],
+                             ['comet-21-40', 'comet-21-40'],
+                             ['comet-21-41', 'comet-21-41'],
+                             ['comet-21-42', 'comet-21-42'],
+                             ['comet-21-43', 'comet-21-43'],
+                             ['comet-21-44', 'comet-21-44'],
+                             ['comet-21-45', 'comet-21-45'],
+                             ['comet-21-46', 'comet-21-46'],
+                             ['comet-21-47', 'comet-21-47'],
+                             ['comet-21-48', 'comet-21-48'],
+                             ['comet-21-49', 'comet-21-49'],
+                             ['comet-21-50', 'comet-21-50'],
+                             ['comet-21-51', 'comet-21-51'],
+                             ['comet-21-52', 'comet-21-52'],
+                             ['comet-21-53', 'comet-21-53'],
+                             ['comet-21-54', 'comet-21-54'],
+                             ['comet-21-55', 'comet-21-55'],
+                             ['comet-21-56', 'comet-21-56'],
+                             ['comet-21-57', 'comet-21-57'],
+                             ['comet-21-58', 'comet-21-58'],
+                             ['comet-21-59', 'comet-21-59'],
+                             ['comet-21-60', 'comet-21-60'],
+                             ['comet-21-61', 'comet-21-61'],
+                             ['comet-21-62', 'comet-21-62'],
+                             ['comet-21-63', 'comet-21-63'],
+                             ['comet-21-64', 'comet-21-64'],
+                             ['comet-21-65', 'comet-21-65'],
+                             ['comet-21-66', 'comet-21-66'],
+                             ['comet-21-67', 'comet-21-67'],
+                             ['comet-21-69', 'comet-21-69'],
+                             ['comet-21-70', 'comet-21-70'],
+                             ['comet-21-71', 'comet-21-71'],
+                             ['comet-21-72', 'comet-21-72']]},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'ORTE',
+ 'number': 0,
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011/pilot.0000/',
+ 'resource_cfg': {'agent_config': 'default',
+                  'agent_launch_method': 'ORTE',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cores_per_node': 24,
+                  'default_queue': 'compute',
+                  'description': "The Comet HPC resource at SDSC 'HPC for the 99%' (http://www.sdsc.edu/services/hpc/hpc_systems.html#comet).",
+                  'filesystem_endpoint': 'gsisftp://comet.sdsc.xsede.org/',
+                  'gsissh': {'filesystem_endpoint': 'gsisftp://comet.sdsc.xsede.org/',
+                             'job_manager_endpoint': 'slurm+gsissh://comet.sdsc.xsede.org/'},
+                  'job_manager_endpoint': 'slurm+gsissh://comet.sdsc.xsede.org/',
+                  'label': 'xsede.comet_orte',
+                  'lrms': 'SLURM',
+                  'mandatory_args': ['project'],
+                  'mpi_launch_method': 'ORTE',
+                  'notes': 'Always set the ``project`` attribute in the ComputePilotDescription or the pilot will fail.',
+                  'pre_bootstrap_0': ['module use --append /home/amerzky/ompi/modules',
+                                      'module load python',
+                                      'module load openmpi/2017_02_17_6da4dbb'],
+                  'python_dist': 'default',
+                  'rp_version': 'local',
+                  'schemas': ['ssh', 'gsissh'],
+                  'ssh': {'filesystem_endpoint': 'sftp://comet.sdsc.xsede.org/',
+                          'job_manager_endpoint': 'slurm+ssh://comet.sdsc.xsede.org/'},
+                  'task_launch_method': 'ORTE',
+                  'valid_roots': ['/home'],
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/home/jdakka/radical.pilot.sandbox',
+ 'runtime': 30,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.two.jdakka.017783.0011',
+ 'session_sandbox': '/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'ORTE',
+ 'uid': 'agent_0',
+ 'workdir': '/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011/pilot.0000'}
+2018-09-09 12:54:36,867: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : start components: {}
+2018-09-09 12:54:36,867: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : alive check in term
+2018-09-09 12:54:36,867: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : START: agent_0.staging.output.0.child register publisher log_pubsub
+2018-09-09 12:54:36,867: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : using addr tcp://198.202.113.101:42515 for pubsub log_pubsub
+2018-09-09 12:54:36,870: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0000
+2018-09-09 12:54:36,870: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : alive check in term
+2018-09-09 12:54:36,870: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : START: agent_0.staging.output.0.child register publisher state_pubsub
+2018-09-09 12:54:36,870: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : using addr tcp://198.202.113.101:46055 for pubsub state_pubsub
+2018-09-09 12:54:36,873: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0000
+2018-09-09 12:54:36,873: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : alive check in term
+2018-09-09 12:54:36,873: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : START: agent_0.staging.output.0.child register publisher control_pubsub
+2018-09-09 12:54:36,873: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : using addr tcp://198.202.113.101:40559 for pubsub control_pubsub
+2018-09-09 12:54:36,875: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0000
+2018-09-09 12:54:36,877: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : alive check in term
+2018-09-09 12:54:36,877: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : START: agent_0.staging.output.0.child register subscriber agent_0.staging.output.0.child.subscriber._cancel_monitor_cb
+2018-09-09 12:54:36,877: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : using addr tcp://198.202.113.101:42550 for pubsub control_pubsub
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : parent name: agent_0.staging.output.0.child.subscriber._cancel_monitor_cb
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : start thread
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: agent_0.staging.output.0.child.subscriber._cancel_monitor_cb.thread
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2018-09-09 12:54:36,880: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.staging.output.0.child.subscriber._cancel_monitor_cb.thread] alive
+2018-09-09 12:54:36,881: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : get msg: alive
+2018-09-09 12:54:36,881: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 12:54:36,882: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 12:54:36,882: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : child thread agent_0.staging.output.0.child.subscriber._cancel_monitor_cb started
+2018-09-09 12:54:36,882: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : agent_0.staging.output.0.child registered control_pubsub subscriber agent_0.staging.output.0.child.subscriber._cancel_monitor_cb
+2018-09-09 12:54:36,882: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : alive check in term
+2018-09-09 12:54:36,882: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : using addr tcp://198.202.113.101:37172 for input agent_staging_output_queue
+2018-09-09 12:54:36,884: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : registered input agent_0.staging.output.0.child.work.AGENT_STAGING_OUTPUT_PENDING
+2018-09-09 12:54:36,884: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : START: agent_0.staging.output.0.child register input AGENT_STAGING_OUTPUT_PENDING: agent_0.staging.output.0.child.work.AGENT_STAGING_OUTPUT_PENDING
+2018-09-09 12:54:36,884: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : registered worker work [AGENT_STAGING_OUTPUT_PENDING]
+2018-09-09 12:54:36,884: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : alive check in term
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : START: agent_0.staging.output.0.child register output UMGR_STAGING_OUTPUT_PENDING
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : child (me) initializing
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : parent name: agent_0.staging.output.0.child.watch
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : start thread
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: DEBUG   : child name: agent_0.staging.output.0.child.watch.thread
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: INFO    : child (me) initializing
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: INFO    : send alive
+2018-09-09 12:54:36,885: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: INFO    : put message: [agent_0.staging.output.0.child.watch.thread] alive
+2018-09-09 12:54:36,886: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : get msg: alive
+2018-09-09 12:54:36,886: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 12:54:36,886: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 12:54:36,886: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : child thread agent_0.staging.output.0.child.watch started
+2018-09-09 12:54:36,886: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : child (me) is alive
+2018-09-09 12:54:36,886: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : send alive
+2018-09-09 12:54:36,886: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : send message: [agent_0.staging.output.0.child] alive
+2018-09-09 13:04:50,297: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000000)
+2018-09-09 13:04:50,297: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,299: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,299: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000000 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,299: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000001)
+2018-09-09 13:04:50,299: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,301: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,301: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000001 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,398: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000002)
+2018-09-09 13:04:50,398: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,400: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,400: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000002 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,400: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000003)
+2018-09-09 13:04:50,400: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,401: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,401: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000003 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,500: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000004)
+2018-09-09 13:04:50,500: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,502: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,502: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000004 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,502: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000006)
+2018-09-09 13:04:50,502: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,503: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,503: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000006 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,504: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000005)
+2018-09-09 13:04:50,504: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,505: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,505: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000005 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,602: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000007)
+2018-09-09 13:04:50,602: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,604: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,604: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000007 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,604: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000009)
+2018-09-09 13:04:50,604: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,605: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,605: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000009 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,606: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000008)
+2018-09-09 13:04:50,606: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,607: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,607: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000008 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,607: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000010)
+2018-09-09 13:04:50,607: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,608: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,608: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000010 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,704: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000011)
+2018-09-09 13:04:50,704: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,706: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,706: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000011 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,706: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000013)
+2018-09-09 13:04:50,706: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,708: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,708: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000013 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,708: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000012)
+2018-09-09 13:04:50,708: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,709: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,709: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000012 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,806: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000014)
+2018-09-09 13:04:50,806: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,808: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,808: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000014 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,808: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000016)
+2018-09-09 13:04:50,808: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,810: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,810: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000016 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,810: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000015)
+2018-09-09 13:04:50,810: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,811: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,811: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000015 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,812: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000017)
+2018-09-09 13:04:50,812: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,813: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,813: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000017 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,908: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000018)
+2018-09-09 13:04:50,908: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,910: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,910: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000018 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,910: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000020)
+2018-09-09 13:04:50,910: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,911: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,911: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000020 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:50,911: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000019)
+2018-09-09 13:04:50,911: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:50,912: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:50,913: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000019 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,010: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000021)
+2018-09-09 13:04:51,010: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,012: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,012: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000021 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,012: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000023)
+2018-09-09 13:04:51,012: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,013: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,013: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000023 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,014: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000022)
+2018-09-09 13:04:51,014: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,015: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,015: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000022 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,015: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000024)
+2018-09-09 13:04:51,015: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,016: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,016: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000024 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,112: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000025)
+2018-09-09 13:04:51,112: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,113: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,113: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000025 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,113: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000027)
+2018-09-09 13:04:51,113: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,114: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,115: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000027 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,115: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000026)
+2018-09-09 13:04:51,115: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,116: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,116: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000026 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,213: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000028)
+2018-09-09 13:04:51,213: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,214: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,215: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000028 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,215: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000030)
+2018-09-09 13:04:51,215: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,216: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,216: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000030 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,216: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000029)
+2018-09-09 13:04:51,216: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,217: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,217: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000029 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,218: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000031)
+2018-09-09 13:04:51,218: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,219: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,219: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000031 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,315: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000032)
+2018-09-09 13:04:51,315: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,316: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,316: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000032 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,317: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000034)
+2018-09-09 13:04:51,317: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,318: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,318: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000034 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,318: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000033)
+2018-09-09 13:04:51,318: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,319: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,319: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000033 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,417: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000035)
+2018-09-09 13:04:51,417: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,418: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,418: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000035 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,418: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000037)
+2018-09-09 13:04:51,418: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,419: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,420: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000037 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,420: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000036)
+2018-09-09 13:04:51,420: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,421: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,421: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000036 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,421: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000038)
+2018-09-09 13:04:51,421: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,422: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,422: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000038 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,519: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000039)
+2018-09-09 13:04:51,519: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,520: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,520: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000039 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,520: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000041)
+2018-09-09 13:04:51,520: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,521: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,521: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000041 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,522: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000040)
+2018-09-09 13:04:51,522: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,523: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,523: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000040 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,523: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000042)
+2018-09-09 13:04:51,523: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,524: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,524: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000042 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,621: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000043)
+2018-09-09 13:04:51,621: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,622: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,622: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000043 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,622: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000045)
+2018-09-09 13:04:51,622: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,623: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,623: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000045 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,623: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000044)
+2018-09-09 13:04:51,623: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,624: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,624: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000044 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,722: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000046)
+2018-09-09 13:04:51,722: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,723: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,723: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000046 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,723: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000048)
+2018-09-09 13:04:51,723: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,724: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,725: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000048 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,725: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000047)
+2018-09-09 13:04:51,725: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,726: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,726: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000047 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,823: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000049)
+2018-09-09 13:04:51,824: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,825: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,825: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000049 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,825: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000051)
+2018-09-09 13:04:51,825: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,826: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,826: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000051 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,826: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000050)
+2018-09-09 13:04:51,826: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,827: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,828: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000050 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,925: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000052)
+2018-09-09 13:04:51,925: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,926: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,926: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000052 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:51,926: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000053)
+2018-09-09 13:04:51,926: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:51,927: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:51,927: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000053 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,026: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000054)
+2018-09-09 13:04:52,026: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,027: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,027: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000054 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,027: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000056)
+2018-09-09 13:04:52,027: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,028: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,029: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000056 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,029: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000055)
+2018-09-09 13:04:52,029: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,030: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,030: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000055 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,030: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000057)
+2018-09-09 13:04:52,030: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,031: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,031: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000057 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,128: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000058)
+2018-09-09 13:04:52,128: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,129: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,129: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000058 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,129: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000060)
+2018-09-09 13:04:52,129: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,130: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,130: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000060 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,131: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000059)
+2018-09-09 13:04:52,131: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,132: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,132: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000059 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,229: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000061)
+2018-09-09 13:04:52,229: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,230: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,230: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000061 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,230: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000063)
+2018-09-09 13:04:52,231: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,232: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,232: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000063 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:04:52,232: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : got unit (unit.000062)
+2018-09-09 13:04:52,232: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 13:04:52,233: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-09-09 13:04:52,233: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : drop  unit.000062 [UMGR_STAGING_OUTPUT_PENDING]
+2018-09-09 13:05:17,301: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : got termination command
+2018-09-09 13:05:17,411: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : stop agent_0.staging.output.0.child (9220 : 9220 : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb) [radical.pilot.utils.component.Default._cancel_monitor_cb]
+2018-09-09 13:05:17,414: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  9220 -> 9220 [agent_0.staging.output.0.child]
+2018-09-09 13:05:17,414: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : send message: [agent_0.staging.output.0.child] STOP
+2018-09-09 13:05:17,414: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_common()
+2018-09-09 13:05:17,414: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.staging.output.0.child unregister publisher log_pubsub
+2018-09-09 13:05:17,415: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher log_pubsub
+2018-09-09 13:05:17,415: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.staging.output.0.child unregister publisher state_pubsub
+2018-09-09 13:05:17,415: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher state_pubsub
+2018-09-09 13:05:17,415: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.staging.output.0.child unregister publisher control_pubsub
+2018-09-09 13:05:17,416: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher control_pubsub
+2018-09-09 13:05:17,416: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : agent_0.staging.output.0.child close prof
+2018-09-09 13:05:17,417: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.staging.output.0.child.subscriber._cancel_monitor_cb - do not join
+2018-09-09 13:05:17,417: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : child calls stop()
+2018-09-09 13:05:17,417: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-09-09 13:05:17,420: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.staging.output.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2018-09-09 13:05:17,462: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: WARNING : %s died
+2018-09-09 13:05:17,462: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: INFO    : watcher closes
+2018-09-09 13:05:17,462: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: INFO    : put message: [agent_0.staging.output.0.child.watch.thread] work finished
+2018-09-09 13:05:17,462: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-09-09 13:05:17,462: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-09-09 13:05:17,462: agent_0.staging.output.0.child: agent_0.staging.output.0        : agent_0.staging.output.0.child.watch: INFO    : put message: [agent_0.staging.output.0.child.watch.thread] terminating
+2018-09-09 13:05:18,260: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_finalize_common()
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : WARNING : publisher log_pubsub is not registered
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : WARNING : publisher state_pubsub is not registered
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : WARNING : publisher control_pubsub is not registered
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : agent_0.staging.output.0.child close prof
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : send message: [agent_0.staging.output.0.child] terminating
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : INFO    : parent stops child
+2018-09-09 13:05:18,261: agent_0.staging.output.0.child: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

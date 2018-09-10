@@ -1,0 +1,4 @@
+#time,event,comp,thread,uid,state,msg
+1536522886.7871,sync_abs,umgr.0000.scheduling.0,MainThread,,,localhost.localdomain:138.201.86.166:1536522886.64:1536522886.65:ntp
+1536522887.0786,END,umgr.0000.scheduling.0,MainThread,,,
+1536522887.1699,component_init,umgr.0000.scheduling.0,MainThread,,,

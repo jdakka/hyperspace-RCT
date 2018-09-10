@@ -1,0 +1,455 @@
+2018-09-09 21:17:45,018: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : python.interpreter   version: 2.7.12 (default, Dec 4 2017, 14:50:18) [GCC 5.4.0 20160609]
+2018-09-09 21:17:45,018: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    :                      pid/tid: 21252/MainThread
+2018-09-09 21:17:45,018: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : initialize pmgr.0000.launching.0.child
+2018-09-09 21:17:45,022: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : cfg: {'agents': {},
+ u'bridges': {u'control_pubsub': {'addr_in': 'tcp://138.201.86.166:38409',
+                                  'addr_out': 'tcp://138.201.86.166:46684',
+                                  u'bulk_size': 0,
+                                  u'log_level': u'error',
+                                  u'stall_hwm': 1},
+              u'log_pubsub': {'addr_in': 'tcp://138.201.86.166:36610',
+                              'addr_out': 'tcp://138.201.86.166:43072',
+                              u'bulk_size': 0,
+                              u'log_level': u'error',
+                              u'stall_hwm': 1},
+              u'pmgr_launching_queue': {'addr_in': 'tcp://138.201.86.166:34172',
+                                        'addr_out': 'tcp://138.201.86.166:41061',
+                                        u'bulk_size': 0,
+                                        u'log_level': u'error',
+                                        u'stall_hwm': 1},
+              u'state_pubsub': {'addr_in': 'tcp://138.201.86.166:45673',
+                                'addr_out': 'tcp://138.201.86.166:33663',
+                                u'bulk_size': 0,
+                                u'log_level': u'error',
+                                u'stall_hwm': 1}},
+ 'cname': u'PMGRLaunchingComponent',
+ u'components': {},
+ u'count': 1,
+ u'db_poll_sleeptime': 10.0,
+ 'number': 0,
+ 'owner': 'pmgr.0000',
+ 'uid': 'pmgr.0000'}
+2018-09-09 21:17:45,022: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : start components: {}
+2018-09-09 21:17:45,022: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : alive check in term
+2018-09-09 21:17:45,023: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : START: pmgr.0000.launching.0.child register publisher log_pubsub
+2018-09-09 21:17:45,023: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : using addr tcp://138.201.86.166:36610 for pubsub log_pubsub
+2018-09-09 21:17:45,026: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0001
+2018-09-09 21:17:45,027: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : alive check in term
+2018-09-09 21:17:45,027: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : START: pmgr.0000.launching.0.child register publisher state_pubsub
+2018-09-09 21:17:45,027: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : using addr tcp://138.201.86.166:45673 for pubsub state_pubsub
+2018-09-09 21:17:45,030: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0001
+2018-09-09 21:17:45,030: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : alive check in term
+2018-09-09 21:17:45,030: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : START: pmgr.0000.launching.0.child register publisher control_pubsub
+2018-09-09 21:17:45,030: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : using addr tcp://138.201.86.166:38409 for pubsub control_pubsub
+2018-09-09 21:17:45,033: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0001
+2018-09-09 21:17:45,033: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : alive check in term
+2018-09-09 21:17:45,033: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : START: pmgr.0000.launching.0.child register subscriber pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb
+2018-09-09 21:17:45,033: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : using addr tcp://138.201.86.166:46684 for pubsub control_pubsub
+2018-09-09 21:17:45,060: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : parent name: pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb
+2018-09-09 21:17:45,060: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : start thread
+2018-09-09 21:17:45,061: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb.thread
+2018-09-09 21:17:45,061: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2018-09-09 21:17:45,061: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,061: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-09-09 21:17:45,062: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2018-09-09 21:17:45,062: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb.thread] alive
+2018-09-09 21:17:45,062: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : get msg: alive
+2018-09-09 21:17:45,062: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,063: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 21:17:45,063: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : child thread pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb started
+2018-09-09 21:17:45,063: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : pmgr.0000.launching.0.child registered control_pubsub subscriber pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb
+2018-09-09 21:17:45,063: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : alive check in term
+2018-09-09 21:17:45,063: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : using addr tcp://138.201.86.166:41061 for input pmgr_launching_queue
+2018-09-09 21:17:45,066: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : registered input pmgr.0000.launching.0.child.work.PMGR_LAUNCHING_PENDING
+2018-09-09 21:17:45,066: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : START: pmgr.0000.launching.0.child register input PMGR_LAUNCHING_PENDING: pmgr.0000.launching.0.child.work.PMGR_LAUNCHING_PENDING
+2018-09-09 21:17:45,066: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : registered worker work [PMGR_LAUNCHING_PENDING]
+2018-09-09 21:17:45,067: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : alive check in term
+2018-09-09 21:17:45,067: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : START: pmgr.0000.launching.0.child register idler pmgr.0000.launching.0.child.idler._pilot_watcher_cb
+2018-09-09 21:17:45,067: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : parent name: pmgr.0000.launching.0.child.idler._pilot_watcher_cb
+2018-09-09 21:17:45,067: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : start thread
+2018-09-09 21:17:45,068: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : child name: pmgr.0000.launching.0.child.idler._pilot_watcher_cb.thread
+2018-09-09 21:17:45,068: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: INFO    : child (me) initializing
+2018-09-09 21:17:45,068: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,068: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-09-09 21:17:45,069: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: INFO    : send alive
+2018-09-09 21:17:45,069: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: INFO    : put message: [pmgr.0000.launching.0.child.idler._pilot_watcher_cb.thread] alive
+2018-09-09 21:17:45,069: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : get msg: alive
+2018-09-09 21:17:45,070: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,070: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 21:17:45,070: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : child thread pmgr.0000.launching.0.child.idler._pilot_watcher_cb started
+2018-09-09 21:17:45,070: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : pmgr.0000.launching.0.child registered idler pmgr.0000.launching.0.child.idler._pilot_watcher_cb
+2018-09-09 21:17:45,070: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : alive check in term
+2018-09-09 21:17:45,071: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : START: pmgr.0000.launching.0.child register subscriber pmgr.0000.launching.0.child.subscriber._pmgr_control_cb
+2018-09-09 21:17:45,071: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : using addr tcp://138.201.86.166:46684 for pubsub control_pubsub
+2018-09-09 21:17:45,076: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : parent name: pmgr.0000.launching.0.child.subscriber._pmgr_control_cb
+2018-09-09 21:17:45,076: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : start thread
+2018-09-09 21:17:45,077: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : child name: pmgr.0000.launching.0.child.subscriber._pmgr_control_cb.thread
+2018-09-09 21:17:45,077: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: INFO    : child (me) initializing
+2018-09-09 21:17:45,078: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,078: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-09-09 21:17:45,078: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: INFO    : send alive
+2018-09-09 21:17:45,078: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: INFO    : put message: [pmgr.0000.launching.0.child.subscriber._pmgr_control_cb.thread] alive
+2018-09-09 21:17:45,081: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : get msg: alive
+2018-09-09 21:17:45,082: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: []
+2018-09-09 21:17:45,082: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,083: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 21:17:45,083: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : child thread pmgr.0000.launching.0.child.subscriber._pmgr_control_cb started
+2018-09-09 21:17:45,083: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : pmgr.0000.launching.0.child registered control_pubsub subscriber pmgr.0000.launching.0.child.subscriber._pmgr_control_cb
+2018-09-09 21:17:45,083: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : ('0.50.8', '0.50.8', None, None, 'radical.pilot-0.50.8.tar.gz', '/home/jdakka/hyperspace/python-2.7-ve/local/lib/python2.7/site-packages/radical/pilot/pmgr/launching/../..//radical.pilot-0.50.8.tar.gz')
+2018-09-09 21:17:45,084: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : child (me) initializing
+2018-09-09 21:17:45,084: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : parent name: pmgr.0000.launching.0.child.watch
+2018-09-09 21:17:45,084: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : start thread
+2018-09-09 21:17:45,085: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: DEBUG   : child name: pmgr.0000.launching.0.child.watch.thread
+2018-09-09 21:17:45,085: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : child (me) initializing
+2018-09-09 21:17:45,085: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,085: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-09-09 21:17:45,085: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : send alive
+2018-09-09 21:17:45,085: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : put message: [pmgr.0000.launching.0.child.watch.thread] alive
+2018-09-09 21:17:45,086: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : get msg: alive
+2018-09-09 21:17:45,086: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 21:17:45,086: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 21:17:45,086: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : child thread pmgr.0000.launching.0.child.watch started
+2018-09-09 21:17:45,087: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : child (me) is alive
+2018-09-09 21:17:45,087: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : send alive
+2018-09-09 21:17:45,087: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : send message: [pmgr.0000.launching.0.child] alive
+2018-09-09 21:17:50,747: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : got pilot (pilot.0000)
+2018-09-09 21:17:50,747: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 21:17:50,748: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : Launching pilots on xsede.comet: ['pilot.0000']
+2018-09-09 21:17:52,950: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : 24
+2018-09-09 21:17:52,953: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : {'agent_config': 'default',
+ 'agent_launch_method': 'ORTE',
+ 'agent_scheduler': 'CONTINUOUS',
+ 'agent_spawner': 'POPEN',
+ 'cores_per_node': 24,
+ 'default_queue': 'compute',
+ 'description': "The Comet HPC resource at SDSC 'HPC for the 99%' (http://www.sdsc.edu/services/hpc/hpc_systems.html#comet).",
+ 'filesystem_endpoint': 'gsisftp://comet.sdsc.xsede.org/',
+ 'gsissh': {'filesystem_endpoint': 'gsisftp://comet.sdsc.xsede.org/',
+            'job_manager_endpoint': 'slurm+gsissh://comet.sdsc.xsede.org/'},
+ 'job_manager_endpoint': 'slurm+gsissh://comet.sdsc.xsede.org/',
+ 'label': 'xsede.comet_orte',
+ 'lrms': 'SLURM',
+ 'mandatory_args': ['project'],
+ 'mpi_launch_method': 'ORTE',
+ 'notes': 'Always set the ``project`` attribute in the ComputePilotDescription or the pilot will fail.',
+ 'pre_bootstrap_0': ['module use --append /home/amerzky/ompi/modules',
+                     'module load python',
+                     'module load openmpi/2017_02_17_6da4dbb'],
+ 'python_dist': 'default',
+ 'rp_version': 'local',
+ 'schemas': ['ssh', 'gsissh'],
+ 'ssh': {'filesystem_endpoint': 'sftp://comet.sdsc.xsede.org/',
+         'job_manager_endpoint': 'slurm+ssh://comet.sdsc.xsede.org/'},
+ 'task_launch_method': 'ORTE',
+ 'valid_roots': ['/home'],
+ 'virtenv_mode': 'create'}
+2018-09-09 21:17:52,954: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : Read agent config file: /home/jdakka/hyperspace/python-2.7-ve/local/lib/python2.7/site-packages/radical/pilot/pmgr/launching/../..//configs/agent_default.json
+2018-09-09 21:17:52,955: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : Write agent cfg to '/tmp/rp.agent_cfg.EjY5q7'.
+2018-09-09 21:17:52,957: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : {'agent_launch_method': 'ORTE',
+ u'bridges': {u'agent_executing_queue': {u'bulk_size': 0,
+                                         u'log_level': u'error',
+                                         u'stall_hwm': 1},
+              u'agent_schedule_pubsub': {u'bulk_size': 0,
+                                         u'log_level': u'error',
+                                         u'stall_hwm': 1},
+              u'agent_scheduling_queue': {u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1},
+              u'agent_staging_input_queue': {u'bulk_size': 0,
+                                             u'log_level': u'error',
+                                             u'stall_hwm': 1},
+              u'agent_staging_output_queue': {u'bulk_size': 0,
+                                              u'log_level': u'error',
+                                              u'stall_hwm': 1},
+              u'agent_unschedule_pubsub': {u'bulk_size': 0,
+                                           u'log_level': u'error',
+                                           u'stall_hwm': 1},
+              u'control_pubsub': {u'bulk_size': 0,
+                                  u'log_level': u'error',
+                                  u'stall_hwm': 1},
+              u'log_pubsub': {u'bulk_size': 0,
+                              u'log_level': u'error',
+                              u'stall_hwm': 1},
+              u'state_pubsub': {u'bulk_size': 0,
+                                u'log_level': u'error',
+                                u'stall_hwm': 1}},
+ u'bulk_collection_size': 100,
+ u'bulk_collection_time': 1.0,
+ u'components': {u'AgentExecutingComponent': {u'count': 1},
+                 u'AgentSchedulingComponent': {u'count': 1},
+                 u'AgentStagingInputComponent': {u'count': 1},
+                 u'AgentStagingOutputComponent': {u'count': 1},
+                 u'UpdateWorker': {u'count': 1}},
+ 'cores': 1536,
+ 'cores_per_node': 24,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ u'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://username:password12@ds229609.mlab.com:29609/bridges-hyperspace',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 0,
+ 'logdir': '.',
+ 'lrms': 'SLURM',
+ u'max_io_loglength': 1024,
+ u'mode': u'shared',
+ 'mpi_launch_method': 'ORTE',
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/pilot.0000/',
+ 'resource_cfg': {'agent_config': 'default',
+                  'agent_launch_method': 'ORTE',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cores_per_node': 24,
+                  'default_queue': 'compute',
+                  'description': "The Comet HPC resource at SDSC 'HPC for the 99%' (http://www.sdsc.edu/services/hpc/hpc_systems.html#comet).",
+                  'filesystem_endpoint': 'gsisftp://comet.sdsc.xsede.org/',
+                  'gsissh': {'filesystem_endpoint': 'gsisftp://comet.sdsc.xsede.org/',
+                             'job_manager_endpoint': 'slurm+gsissh://comet.sdsc.xsede.org/'},
+                  'job_manager_endpoint': 'slurm+gsissh://comet.sdsc.xsede.org/',
+                  'label': 'xsede.comet_orte',
+                  'lrms': 'SLURM',
+                  'mandatory_args': ['project'],
+                  'mpi_launch_method': 'ORTE',
+                  'notes': 'Always set the ``project`` attribute in the ComputePilotDescription or the pilot will fail.',
+                  'pre_bootstrap_0': ['module use --append /home/amerzky/ompi/modules',
+                                      'module load python',
+                                      'module load openmpi/2017_02_17_6da4dbb'],
+                  'python_dist': 'default',
+                  'rp_version': 'local',
+                  'schemas': ['ssh', 'gsissh'],
+                  'ssh': {'filesystem_endpoint': 'sftp://comet.sdsc.xsede.org/',
+                          'job_manager_endpoint': 'slurm+ssh://comet.sdsc.xsede.org/'},
+                  'task_launch_method': 'ORTE',
+                  'valid_roots': ['/home'],
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/home/jdakka/radical.pilot.sandbox',
+ 'runtime': 30,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.two.jdakka.017783.0009',
+ 'session_sandbox': '/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009',
+ 'spawner': 'POPEN',
+ u'staging_area': u'staging_area',
+ u'staging_schema': u'staging',
+ u'target': u'local',
+ 'task_launch_method': 'ORTE'}
+2018-09-09 21:17:53,013: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : use bootstrapper /home/jdakka/hyperspace/python-2.7-ve/local/lib/python2.7/site-packages/radical/pilot/agent/bootstrap_0.sh
+2018-09-09 21:17:53,015: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : Bootstrap command line: /bin/bash ['-l /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/bootstrap_0.sh', " -d 'radical.utils-0.50.2.tar.gz:saga-python-0.50.0.tar.gz:radical.pilot-0.50.8.tar.gz' -p 'pilot.0000' -s 'rp.session.two.jdakka.017783.0009' -m 'create' -r 'local' -b 'default' -g 'default' -v '/home/jdakka/radical.pilot.sandbox/ve.xsede.comet.0.50.8' -y '30' -e 'module use --append /home/amerzky/ompi/modules' -e 'module load python' -e 'module load openmpi/2017_02_17_6da4dbb'"]
+2018-09-09 21:17:53,017: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : cmd: cd /tmp/rp_agent_tar_dirwO0ABt && tar zchf /tmp/rp_agent_tar_dirwO0ABt/rp.session.two.jdakka.017783.0009.pmgr.0000.launching.0.child.tgz *
+2018-09-09 21:17:53,092: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : out: 
+2018-09-09 21:17:53,092: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : rs.file.Directory ('gsisftp://comet.sdsc.xsede.org/')
+2018-09-09 21:18:02,536: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : tar cmd : tar zmxvf /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/rp.session.two.jdakka.017783.0009.pmgr.0000.launching.0.child.tgz -C /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009
+2018-09-09 21:18:03,132: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : tar done: Done, bootstrap_0.sh
+pilot.0000/
+pilot.0000/agent_0.cfg
+pilot.0000/pilot.0000.prof.tgz
+pilot.0000/pilot.0000.log.tgz
+radical.pilot-0.50.8.tar.gz
+radical.utils-0.50.2.tar.gz
+saga-python-0.50.0.tar.gz
+, 
+2018-09-09 21:18:06,409: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : jd: {'Arguments': ['-l /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/bootstrap_0.sh',
+               " -d 'radical.utils-0.50.2.tar.gz:saga-python-0.50.0.tar.gz:radical.pilot-0.50.8.tar.gz' -p 'pilot.0000' -s 'rp.session.two.jdakka.017783.0009' -m 'create' -r 'local' -b 'default' -g 'default' -v '/home/jdakka/radical.pilot.sandbox/ve.xsede.comet.0.50.8' -y '30' -e 'module use --append /home/amerzky/ompi/modules' -e 'module load python' -e 'module load openmpi/2017_02_17_6da4dbb'"],
+ 'CandidateHosts': None,
+ 'Environment': {'RADICAL_PILOT_PROFILE': 'TRUE'},
+ 'Error': 'bootstrap_0.err',
+ 'Executable': '/bin/bash',
+ 'FileTransfer': [],
+ 'Name': 'pilot.0000',
+ 'Output': 'bootstrap_0.out',
+ 'ProcessesPerHost': 24,
+ 'Project': 'unc100',
+ 'Queue': 'compute',
+ 'SPMDVariation': None,
+ 'TotalCPUCount': 1536,
+ 'TotalGPUCount': 0,
+ 'TotalPhysicalMemory': None,
+ 'WallTimeLimit': 30,
+ 'WorkingDirectory': '/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/pilot.0000/'}
+2018-09-09 21:18:09,700: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : pilot job: pilot.0000 : [slurm+gsissh://comet.sdsc.xsede.org/]-[19000291] : pilot.0000 : Pending
+2018-09-09 21:18:09,701: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-09-09 21:18:09,701: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : launcher got {'cmd': 'pilot_staging_input_request', 'arg': {'pilot': {'resource_sandbox': 'gsisftp://comet.sdsc.xsede.org/home/jdakka/radical.pilot.sandbox', 'resource_details': None, 'resource': 'xsede.comet', 'uid': 'pilot.0000', 'pmgr': 'pmgr.0000', 'stdout': None, 'js_url': 'slurm+gsissh://comet.sdsc.xsede.org/', 'state': 'PMGR_LAUNCHING_PENDING', 'session': 'rp.session.two.jdakka.017783.0009', 'log': None, 'stderr': None, 'js_hop': 'gsissh://comet.sdsc.xsede.org/', 'client_sandbox': '/home/jdakka/hyperspace/hyperspace-RCT/null_workload', 'type': 'pilot', 'pilot_sandbox': 'gsisftp://comet.sdsc.xsede.org/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/pilot.0000/', 'description': {'queue': 'compute', 'resource': 'xsede.comet', 'exit_on_error': False, 'candidate_hosts': None, 'project': 'unc100', 'sandbox': None, 'cleanup': None, 'access_schema': 'gsissh', 'gpus': 0, 'memory': None, 'cores': 1536, 'runtime': 30}}, 'sds': []}}
+2018-09-09 21:18:09,702: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : command ignored: pilot_staging_input_request
+2018-09-09 21:18:10,013: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Pending']]
+2018-09-09 21:18:10,321: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Pending
+2018-09-09 21:18:10,321: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : launcher got {'cmd': 'pilot_staging_input_result', 'arg': {'pilot': {'resource_sandbox': 'gsisftp://comet.sdsc.xsede.org/home/jdakka/radical.pilot.sandbox', 'resource_details': None, 'resource': 'xsede.comet', 'uid': 'pilot.0000', 'pmgr': 'pmgr.0000', 'stdout': None, 'description': {'project': 'unc100', 'resource': 'xsede.comet', 'exit_on_error': False, 'cores': 1536, 'candidate_hosts': None, 'queue': 'compute', 'sandbox': None, 'cleanup': None, 'access_schema': 'gsissh', 'memory': None, 'gpus': 0, 'runtime': 30}, 'state': 'PMGR_LAUNCHING_PENDING', 'session': 'rp.session.two.jdakka.017783.0009', 'client_sandbox': '/home/jdakka/hyperspace/hyperspace-RCT/null_workload', 'log': None, 'stderr': None, 'js_hop': 'gsissh://comet.sdsc.xsede.org/', 'type': 'pilot', 'pilot_sandbox': 'gsisftp://comet.sdsc.xsede.org/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/pilot.0000/', 'js_url': 'slurm+gsissh://comet.sdsc.xsede.org/'}, 'sds': []}}
+2018-09-09 21:18:10,321: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : command ignored: pilot_staging_input_result
+2018-09-09 21:18:20,655: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Pending']]
+2018-09-09 21:18:20,963: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Pending
+2018-09-09 21:18:31,302: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Pending']]
+2018-09-09 21:18:31,611: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Pending
+2018-09-09 21:18:41,949: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Pending']]
+2018-09-09 21:18:42,258: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Pending
+2018-09-09 21:18:52,599: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Pending']]
+2018-09-09 21:18:52,908: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Pending
+2018-09-09 21:19:03,245: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Pending']]
+2018-09-09 21:19:03,552: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Pending
+2018-09-09 21:19:13,890: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:19:14,197: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:19:24,533: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:19:26,735: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:19:37,071: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:19:37,377: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:19:38,073: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : command ignored: add_pilots
+2018-09-09 21:19:38,074: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : launcher got {'cmd': 'add_pilots', 'arg': {'pilots': [{'resource_sandbox': 'gsisftp://comet.sdsc.xsede.org/home/jdakka/radical.pilot.sandbox', 'resource_details': {'lm_detail': None, 'lm_info': {'ORTE': {'version': '3.0.0a1', 'version_detail': 'v2.x-dev-3722-g578d881'}}}, 'resource': 'xsede.comet', 'uid': 'pilot.0000', 'pmgr': 'pmgr.0000', 'stdout': None, 'js_url': 'slurm+gsissh://comet.sdsc.xsede.org/', 'state': 'PMGR_ACTIVE', 'session': 'rp.session.two.jdakka.017783.0009', 'log': None, 'stderr': None, 'js_hop': 'gsissh://comet.sdsc.xsede.org/', 'client_sandbox': '/home/jdakka/hyperspace/hyperspace-RCT/null_workload', 'type': 'pilot', 'pilot_sandbox': 'gsisftp://comet.sdsc.xsede.org/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0009/pilot.0000/', 'description': {'queue': 'compute', 'resource': 'xsede.comet', 'exit_on_error': False, 'candidate_hosts': None, 'project': 'unc100', 'sandbox': None, 'cleanup': None, 'access_schema': 'gsissh', 'gpus': 0, 'memory': None, 'cores': 1536, 'runtime': 30}}], 'umgr': 'umgr.0000'}}
+2018-09-09 21:19:47,697: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:19:48,002: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:19:58,319: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:19:58,624: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:20:08,939: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:20:09,243: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:20:19,559: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:20:19,864: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:20:30,180: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:20:30,484: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:20:40,800: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:20:41,104: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:20:51,421: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:20:51,724: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:21:02,041: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:21:02,346: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:21:12,664: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:21:12,968: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:21:23,286: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:21:23,593: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:21:33,911: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:21:34,216: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:21:44,534: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:21:44,839: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:21:55,158: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:21:55,462: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:22:05,780: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:22:06,085: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:22:16,404: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:22:16,710: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:22:27,028: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:22:27,333: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:22:37,652: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:22:37,957: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:22:48,276: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:22:48,582: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:22:58,900: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:22:59,206: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:23:09,525: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:23:09,831: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:23:20,147: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:23:20,463: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:23:30,787: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:23:31,091: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:23:41,409: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:23:41,714: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:23:52,153: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:23:52,459: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:24:02,778: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:24:03,083: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:24:13,403: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:24:13,708: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:24:24,655: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:24:24,960: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:24:35,280: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:24:35,586: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:24:45,901: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:24:46,242: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:24:57,155: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:24:57,460: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:25:07,778: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:25:08,082: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:25:18,401: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:25:18,706: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:25:29,505: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:25:29,808: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:25:40,125: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:25:40,430: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:25:50,747: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:25:51,051: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:26:01,369: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:26:01,672: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:26:11,991: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:26:12,300: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:26:22,618: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:26:22,923: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:26:33,242: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:26:33,547: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:26:43,866: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:26:44,171: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:26:54,490: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:26:54,795: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:27:05,114: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:27:05,433: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:27:15,751: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:27:16,056: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:27:26,372: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:27:26,676: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:27:37,184: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:27:37,488: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:27:47,819: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:27:48,245: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:27:58,562: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:27:58,865: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:28:09,703: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:28:10,007: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:28:20,326: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:28:20,630: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:28:30,950: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:28:31,255: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:28:42,213: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:28:42,517: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:28:52,834: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:28:53,136: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:29:03,455: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:29:03,758: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:29:14,977: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:29:15,327: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:29:25,645: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:29:25,950: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:29:36,381: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:29:36,687: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:29:47,013: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:29:47,321: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:29:57,680: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:29:57,986: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:30:06,936: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : launcher got {'cmd': 'cancel_pilots', 'arg': {'uids': ['pilot.0000'], 'pmgr': 'pmgr.0000'}}
+2018-09-09 21:30:06,936: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: INFO    : received pilot_cancel command (['pilot.0000'])
+2018-09-09 21:30:07,575: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : pilot(s).need(s) cancellation ['pilot.0000']
+2018-09-09 21:30:07,575: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : update cancel req: pilot.0000 1536521407.58
+2018-09-09 21:30:07,576: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : command ignored: cancel_pilots
+2018-09-09 21:30:08,323: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : bulk states: [['Running']]
+2018-09-09 21:30:08,630: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : saga job state: pilot.0000 Running
+2018-09-09 21:30:14,156: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : launcher got {'cmd': 'cancel_pilots', 'arg': {'uids': ['pilot.0000'], 'pmgr': 'pmgr.0000'}}
+2018-09-09 21:30:14,157: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: INFO    : received pilot_cancel command (['pilot.0000'])
+2018-09-09 21:30:14,257: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : pilot(s).need(s) cancellation ['pilot.0000']
+2018-09-09 21:30:14,257: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._pmgr_control_cb: DEBUG   : update cancel req: pilot.0000 1536521414.26
+2018-09-09 21:30:14,257: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.subscriber._cancel_monitor_cb: DEBUG   : command ignored: cancel_pilots
+2018-09-09 21:30:14,303: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : recv message: STOP
+2018-09-09 21:30:14,304: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : message received: STOP
+2018-09-09 21:30:14,304: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : STOP received: STOP
+2018-09-09 21:30:14,304: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : watcher closes
+2018-09-09 21:30:14,304: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : put message: [pmgr.0000.launching.0.child.watch.thread] work finished
+2018-09-09 21:30:14,304: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-09-09 21:30:14,304: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-09-09 21:30:14,305: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.watch: INFO    : put message: [pmgr.0000.launching.0.child.watch.thread] terminating
+2018-09-09 21:30:15,277: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : WARNING : alive check: proc invalid - stop [False - True]
+2018-09-09 21:30:15,311: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : stop pmgr.0000.launching.0.child (21252 : 21252 : MainThread) [radical.utils.process.Default.is_valid]
+2018-09-09 21:30:15,462: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : parent stops child  21252 -> 21252 [pmgr.0000.launching.0.child]
+2018-09-09 21:30:15,462: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : send message: [pmgr.0000.launching.0.child] STOP
+2018-09-09 21:30:15,462: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2018-09-09 21:30:15,463: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : TERM : pmgr.0000.launching.0.child unregister idler pmgr.0000.launching.0.child.idler._pilot_watcher_cb
+2018-09-09 21:30:15,463: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : INFO    : parent stops child
+2018-09-09 21:30:15,463: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-09-09 21:30:15,463: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2018-09-09 21:30:15,548: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-09-09 21:30:15,548: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : ru_finalize_common (NOOP)
+2018-09-09 21:30:15,548: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: INFO    : put message: [pmgr.0000.launching.0.child.idler._pilot_watcher_cb.thread] terminating
+2018-09-09 21:30:15,577: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : TERM : pmgr.0000.launching.0.child unregistered idler pmgr.0000.launching.0.child.idler._pilot_watcher_cb
+2018-09-09 21:30:15,578: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : TERM : pmgr.0000.launching.0.child unregister subscriber pmgr.0000.launching.0.child.subscriber._pmgr_control_cb
+2018-09-09 21:30:15,578: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : unregistered subscriber pmgr.0000.launching.0.child.subscriber._pmgr_control_cb
+2018-09-09 21:30:15,678: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : pilot(s).need(s) cancellation ['pilot.0000']
+2018-09-09 21:30:15,678: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : update cancel req: pilot.0000 1536521415.68
+2018-09-09 21:30:15,678: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : killing pilots: ['pilot.0000']
+2018-09-09 21:30:15,679: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : killing pilots: [1536521415.678593]
+2018-09-09 21:30:15,679: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : killing pilots: last cancel: 1536521415.68
+2018-09-09 21:30:15,679: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : killing pilots: check 1536521415.68 < 1536521415.68 + 120
+2018-09-09 21:30:15,679: pmgr.0000.launching.0.child: pmgr.0000.launching.0           : MainThread     : DEBUG   : killing pilots: alive pilot.0000

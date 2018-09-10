@@ -1,0 +1,17 @@
+#time,name,uid,state,event,msg
+0.0017,bootstrap_0_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+0.0220,ve_setup_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1.1609,ve_activate_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1.8587,ve_activate_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1.8641,rp_install_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+8.2001,rp_install_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+8.2106,ve_setup_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+8.2156,ve_activate_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+9.9888,sync_rel,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,agent_0 start
+654.8612,killme,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2018-09-09 13:05:18.794
+654.9053,sigterm,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2018-09-09 13:05:18.838
+655.9455,agent_final,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,9084:143 2018-09-09 13:05:19.878
+655.9511,cleanup_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+655.9562,cleanup_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+655.9675,bootstrap_0_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+655.9723,END,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,

@@ -1,0 +1,993 @@
+2018-09-09 21:53:49,475: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : python.interpreter   version: 2.7.12 (default, Dec 4 2017, 14:50:18) [GCC 5.4.0 20160609]
+2018-09-09 21:53:49,476: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    :                      pid/tid: 9447/MainThread
+2018-09-09 21:53:49,476: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYShell init <saga.utils.pty_shell.PTYShell object at 0x7f607dc02510>
+2018-09-09 21:53:49,478: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : PTY prompt pattern: [\$#%>\]]\s*$
+2018-09-09 21:53:49,479: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh copy  mode set to 'sftp'
+2018-09-09 21:53:49,479: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh share mode set to 'auto'
+2018-09-09 21:53:49,479: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh timeout    set to '2000.0'
+2018-09-09 21:53:49,481: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : SSH Connection M_FLAGS: -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no  -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000
+2018-09-09 21:53:49,481: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : SSH Connection S_FLAGS: -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no  -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000
+2018-09-09 21:53:49,481: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : open master pty for [ssh] [comet.sdsc.xsede.org] jdakka: /usr/bin/env TERM=vt100 X509_USER_PROXY='/tmp/x509up_u1008'  "/usr/bin/gsissh" -t -o IdentityFile=/home/jdakka/.ssh/id_rsa  -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no  -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org'
+2018-09-09 21:53:49,482: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607c39ef10>
+2018-09-09 21:53:49,483: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsissh -t -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:53:49,486: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  134] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2018-09-09 21:53:49,872: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  134] [ 1247] (Last login: Sun Sep  9 12:53:4 ... ****************************\n)
+2018-09-09 21:53:50,065: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  134] [   23] ([jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:50,070: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (Last login: Sun Sep  9 12:53:48 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:50,070: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (Last login: Sun Sep  9 12:53:48 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:50,070: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607c128150>
+2018-09-09 21:53:50,071: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsissh -t -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:53:50,072: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2018-09-09 21:53:50,450: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [ 1247] (Last login: Sun Sep  9 12:53:4 ... ****************************\n)
+2018-09-09 21:53:50,638: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [   23] ([jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:50,642: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (Last login: Sun Sep  9 12:53:49 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:50,642: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (Last login: Sun Sep  9 12:53:49 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:50,642: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : running command shell: exec /bin/sh -i
+2018-09-09 21:53:50,642: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2018-09-09 21:53:50,839: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [    1] ($)
+2018-09-09 21:53:50,839: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:50,942: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2018-09-09 21:53:51,129: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [   10] (PROMPT-0->)
+2018-09-09 21:53:51,130: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got new shell prompt
+2018-09-09 21:53:51,130: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:51,232: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:51,334: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: echo "WORKDIR: $PWD"
+2018-09-09 21:53:51,334: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [   21] (echo "WORKDIR: $PWD"\n)
+2018-09-09 21:53:51,524: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [   33] (WORKDIR: /home/jdakka\nPROMPT-0->)
+2018-09-09 21:53:51,525: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYShell del  <saga.utils.pty_shell.PTYShell object at 0x7f607dc02510>
+2018-09-09 21:53:51,626: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess del  <saga.utils.pty_process.PTYProcess object at 0x7f607c128150>
+2018-09-09 21:53:51,757: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607c0f0fd0>
+2018-09-09 21:53:51,758: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsissh -t -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:53:51,759: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2018-09-09 21:53:52,136: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [ 1247] (Last login: Sun Sep  9 12:53:5 ... ****************************\n)
+2018-09-09 21:53:52,333: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [   23] ([jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:52,338: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (Last login: Sun Sep  9 12:53:50 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:52,338: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (Last login: Sun Sep  9 12:53:50 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:52,338: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2018-09-09 21:53:52,533: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [    1] ($)
+2018-09-09 21:53:52,534: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:52,636: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2018-09-09 21:53:52,824: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [   10] (PROMPT-0->)
+2018-09-09 21:53:52,825: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:52,927: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:53,030: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [   32] (cd / &&  test -d  '/' && cd '/'\n)
+2018-09-09 21:53:53,217: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [   10] (PROMPT-0->)
+2018-09-09 21:53:53,219: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:53,322: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  148] [  104] (mkdir -p / && cd / &&  mkdir -p '/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011/'\n)
+2018-09-09 21:53:53,513: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  148] [   10] (PROMPT-0->)
+2018-09-09 21:53:53,514: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  148] [     ] (flush pty read cache)
+2018-09-09 21:53:53,617: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607c0fc650>
+2018-09-09 21:53:53,618: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsisftp -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:53:54,194: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [   36] (Connected to comet.sdsc.xsede.org.\n)
+2018-09-09 21:53:54,380: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [    6] (sftp> )
+2018-09-09 21:53:54,381: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (Connected to comet.sdsc.xsede.org.
+sftp> )
+2018-09-09 21:53:54,381: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (Connected to comet.sdsc.xsede.org.
+sftp> )
+2018-09-09 21:53:54,381: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  160] [     ] (flush pty read cache)
+2018-09-09 21:53:54,483: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  160] [     ] (flush pty read cache)
+2018-09-09 21:53:54,586: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  160] [  240] (mput  "//tmp/rp_agent_tar_dirasb1eu/rp.session.two.jdakka.017783.0011.pmgr.0000.launching.0.child.tgz" "/home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011/rp.session.two.jdakka.017783.0011.pmgr.0000.launching.0.child.tgz"\n)
+2018-09-09 21:53:54,586: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [   18] (mput  "//tmp/rp_ag)
+2018-09-09 21:53:54,587: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [  186] (ent_tar_dirasb1eu/rp.session.two.jdakka.017783.0011.pmgr .0000.launching.0.child.tgz" "/home/jdakka/radical.pilot.sandbox/rp.session.two. jdakka.017783.0011/rp.session.two.jdakka.01778)
+2018-09-09 21:53:54,588: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [   43] (3.0011.pmgr.0000.launching.0.child .tgz"\n)
+2018-09-09 21:53:54,774: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [  244] (Uploading //tmp/rp_agent_tar_dirasb1eu/rp.session.two.jdakka.017783.0011.pmgr.0000.launching.0.child.tgz to /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011/rp.session.two.jdakka.017783.0011.pmgr.0000.launching.0.child.tgz\n)
+2018-09-09 21:53:54,960: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [   79] (//tmp/rp_agent_tar_dirasb1eu/rp.ses   0%    0     0.0KB/s   0.0KB/s   --:-- ETA)
+2018-09-09 21:53:55,961: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [   79] (//tmp/rp_agent_tar_dirasb1eu/rp.ses   2%   32KB  32.0KB/s  32.0KB/s   00:33 ETA)
+2018-09-09 21:53:56,636: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [   81] (//tmp/rp_agent_tar_dirasb1eu/rp.ses 100% 1117KB 666.5KB/s   1.1MB/s   00:01    \n)
+2018-09-09 21:53:56,830: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  160] [    6] (sftp> )
+2018-09-09 21:53:56,831: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : copy done: ['mput', 'Uploading', '//tmp/rp_agent_tar_dirasb1eu/rp.ses', 'sftp>']
+2018-09-09 21:53:56,848: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607e341410>
+2018-09-09 21:53:56,849: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsissh -t -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:53:56,850: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2018-09-09 21:53:57,228: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [ 1247] (Last login: Sun Sep  9 12:53:5 ... ****************************\n)
+2018-09-09 21:53:57,430: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   23] ([jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:57,434: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (Last login: Sun Sep  9 12:53:52 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:57,434: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (Last login: Sun Sep  9 12:53:52 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:57,434: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2018-09-09 21:53:57,630: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [    1] ($)
+2018-09-09 21:53:57,631: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:53:57,733: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2018-09-09 21:53:57,923: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   10] (PROMPT-0->)
+2018-09-09 21:53:57,924: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:53:58,031: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607e341450>
+2018-09-09 21:53:58,032: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsissh -t -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:53:58,035: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  162] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2018-09-09 21:53:58,420: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  162] [ 1247] (Last login: Sun Sep  9 12:53:5 ... ****************************\n)
+2018-09-09 21:53:58,622: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  162] [   23] ([jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:58,626: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (Last login: Sun Sep  9 12:53:57 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:58,627: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (Last login: Sun Sep  9 12:53:57 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:53:58,627: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  162] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2018-09-09 21:53:58,822: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  162] [    1] ($)
+2018-09-09 21:53:58,823: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  162] [     ] (flush pty read cache)
+2018-09-09 21:53:58,925: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  162] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2018-09-09 21:53:59,113: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  162] [   10] (PROMPT-0->)
+2018-09-09 21:53:59,113: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  162] [     ] (flush pty read cache)
+2018-09-09 21:53:59,216: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:53:59,319: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   35] (mkdir -p .saga/adaptors/shell_job/\n)
+2018-09-09 21:53:59,509: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   10] (PROMPT-0->)
+2018-09-09 21:53:59,509: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:53:59,612: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   45] (test -f .saga/adaptors/shell_job//wrapper.sh\n)
+2018-09-09 21:53:59,800: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   10] (PROMPT-0->)
+2018-09-09 21:53:59,801: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:53:59,903: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   71] (/bin/sh .saga/adaptors/shell_job//wrapper.sh .saga/adaptors/shell_job/\n)
+2018-09-09 21:54:00,097: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   12] (PID: 10163\n)
+2018-09-09 21:54:00,170: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   12] (PROMPT-0->\n)
+2018-09-09 21:54:00,171: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  162] [     ] (flush pty read cache)
+2018-09-09 21:54:00,274: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  162] [   71] (/bin/sh .saga/adaptors/shell_job//wrapper.sh .saga/adaptors/shell_job/\n)
+2018-09-09 21:54:00,467: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  162] [   12] (PID: 10218\n)
+2018-09-09 21:54:00,537: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  162] [   12] (PROMPT-0->\n)
+2018-09-09 21:54:00,538: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : flush: [  162] [     ] (flush pty read cache)
+2018-09-09 21:54:00,539: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : WARNING : flush: [  162] [    1] (discard data: '
+')
+2018-09-09 21:54:00,546: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:54:00,546: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  161] [    1] (discard data: '
+')
+2018-09-09 21:54:00,641: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : write: [  162] [    8] (MONITOR\n)
+2018-09-09 21:54:00,648: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [  246] (RUN true && ( /bin/sh -c 'tar zmxvf /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011/rp.session.two.jdakka.017783.0011.pmgr.0000.launching.0.child.tgz -C /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011' )\n)
+2018-09-09 21:54:00,834: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : read : [  162] [ 1084] (26643.0:RUNNING: \n26643.0:DON ... RUNNING: \n29558.0:DONE:0   \n)
+2018-09-09 21:54:00,861: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   23] (RUNNING \nOK\n10277.0\n)
+2018-09-09 21:54:00,864: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   12] (PROMPT-0->\n)
+2018-09-09 21:54:00,865: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:54:00,865: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  161] [    1] (discard data: '
+')
+2018-09-09 21:54:00,967: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   14] (STATS 10277.0\n)
+2018-09-09 21:54:01,164: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [  124] (OK\nSTATE : DONE\n\nSTART  : 1536522840\nSTOP   : 1536522840\n\nSTART_STDERR\n\nEND_STDERR\n\nSTART_STDOUT\n\nEND_STDOUT\n\n)
+2018-09-09 21:54:01,165: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   12] (PROMPT-0->\n)
+2018-09-09 21:54:01,167: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:54:01,167: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  161] [    1] (discard data: '
+')
+2018-09-09 21:54:01,269: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   15] (STDOUT 10277.0\n)
+2018-09-09 21:54:01,460: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [  392] (OK\n626f6f7473747261705f302e73680a70696c6f742e303030302f0a70696c6f742e303030302f6167656e745f302e6366670a70696c6f742e303030302f70696c6f742e303030302e70726f662e74677a0a70696c6f742e303030302f70696c6f742e303030302e6c6f672e74677a0a7261646963616c2e70696c6f742d302e35302e382e7461722e677a0a7261646963616c2e7574696c732d302e35302e322e7461722e677a0a736167612d707974686f6e2d302e35302e302e7461722e677a0a\n)
+2018-09-09 21:54:01,461: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   12] (PROMPT-0->\n)
+2018-09-09 21:54:01,463: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  161] [     ] (flush pty read cache)
+2018-09-09 21:54:01,463: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  161] [    1] (discard data: '
+')
+2018-09-09 21:54:01,566: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  161] [   15] (STDERR 10277.0\n)
+2018-09-09 21:54:01,758: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [    6] (OK\n\n)
+2018-09-09 21:54:01,760: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  161] [   12] (PROMPT-0->\n)
+2018-09-09 21:54:01,776: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607c0adfd0>
+2018-09-09 21:54:01,776: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsissh -t -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:54:01,778: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2018-09-09 21:54:01,835: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : read : [  162] [   38] (10277.0:RUNNING: \n10277.0:DONE:0   \n)
+2018-09-09 21:54:02,157: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [ 1247] (Last login: Sun Sep  9 12:53:5 ... ****************************\n)
+2018-09-09 21:54:02,360: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   23] ([jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:54:02,364: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (Last login: Sun Sep  9 12:53:58 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:54:02,365: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (Last login: Sun Sep  9 12:53:58 2018 from static.166.86.201.138.clients.your-server.de
+Rocks 6.2 (SideWinder)
+Profile built 16:44 08-Feb-2016
+
+Kickstarted 17:18 08-Feb-2016
+                                                                       
+                      WELCOME TO 
+      __________________  __  _______________
+        -----/ ____/ __ \/  |/  / ____/_  __/
+          --/ /   / / / / /|_/ / __/   / /
+           / /___/ /_/ / /  / / /___  / /
+           \____/\____/_/  /_/_____/ /_/
+
+*******************************************************************************
+
+[1] Example Scripts: /share/apps/examples
+
+[2] Filesystems:
+
+     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
+         (Preferred: Scalable large block I/O)
+
+     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
+         (Meta-data intensive jobs, high IOPs)
+
+     (c) Lustre projects filesystem: /oasis/projects/nsf
+     
+     (d) /home/$USER : Only for source files, libraries, binaries.
+         *Do not* use for I/O intensive jobs.
+
+[3] Comet User Guide: http://www.sdsc.edu/support/user_guides/comet.html
+******************************************************************************
+[jdakka@comet-ln2 ~]$ $)
+2018-09-09 21:54:02,365: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2018-09-09 21:54:02,559: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [    1] ($)
+2018-09-09 21:54:02,560: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:02,662: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2018-09-09 21:54:02,850: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:54:02,851: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:02,953: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:03,056: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   13] (which squeue\n)
+2018-09-09 21:54:03,244: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   27] (/usr/bin/squeue\nPROMPT-0->)
+2018-09-09 21:54:03,245: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:03,348: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   13] (which sbatch\n)
+2018-09-09 21:54:03,536: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   27] (/usr/bin/sbatch\nPROMPT-0->)
+2018-09-09 21:54:03,537: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:03,640: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   14] (which scancel\n)
+2018-09-09 21:54:03,828: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   28] (/usr/bin/scancel\nPROMPT-0->)
+2018-09-09 21:54:03,829: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:03,931: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   15] (which scontrol\n)
+2018-09-09 21:54:04,120: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   29] (/usr/bin/scontrol\nPROMPT-0->)
+2018-09-09 21:54:04,121: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:04,224: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [    7] (whoami\n)
+2018-09-09 21:54:04,412: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   18] (jdakka\nPROMPT-0->)
+2018-09-09 21:54:04,413: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:04,516: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   19] (scontrol --version\n)
+2018-09-09 21:54:04,707: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   26] (slurm 14.11.11\nPROMPT-0->)
+2018-09-09 21:54:04,708: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:04,810: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [  118] (scontrol show nodes | grep CPUTot| sed -e 's/.*\(CPUTot=[0-9]*\).*/\1/g'| sort | uniq -c | cut -f 2 -d = | xargs echo\n)
+2018-09-09 21:54:05,030: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   20] (24 28 64\nPROMPT-0->)
+2018-09-09 21:54:05,116: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:05,219: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  163] [   90] (mkdir -p /home/jdakka/radical.pilot.sandbox/rp.session.two.jdakka.017783.0011/pilot.0000/\n)
+2018-09-09 21:54:05,408: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:54:05,493: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:05,595: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7f607c0adc90>
+2018-09-09 21:54:05,597: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : INFO    : running: /usr/bin/env TERM=vt100 X509_USER_PROXY=/tmp/x509up_u1008 /usr/bin/gsisftp -o IdentityFile=/home/jdakka/.ssh/id_rsa -o ControlMaster=auto -o ControlPath=/tmp/saga_ssh_jdakka_%h_%p.ctrl -o TCPKeepAlive=no -o ServerAliveInterval=10 -o ServerAliveCountMax=20 -o ConnectTimeout=2000 comet.sdsc.xsede.org
+2018-09-09 21:54:06,166: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [   36] (Connected to comet.sdsc.xsede.org.\n)
+2018-09-09 21:54:06,352: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [    6] (sftp> )
+2018-09-09 21:54:06,353: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : got initial shell prompt (6) (Connected to comet.sdsc.xsede.org.
+sftp> )
+2018-09-09 21:54:06,353: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : Got initial shell prompt (6) (Connected to comet.sdsc.xsede.org.
+sftp> )
+2018-09-09 21:54:06,353: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  164] [     ] (flush pty read cache)
+2018-09-09 21:54:06,456: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  164] [     ] (flush pty read cache)
+2018-09-09 21:54:06,558: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  164] [   58] (mput  "/tmp/rs_pty_staging_DjBwh3.tmp" "tmp_FzFmg8.slurm"\n)
+2018-09-09 21:54:06,559: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [   18] (mput  "/tmp/rs_pty)
+2018-09-09 21:54:06,559: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [   41] (_staging_DjBwh3.tmp" "tmp_FzFmg8.slurm"\n)
+2018-09-09 21:54:06,745: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [   75] (Uploading /tmp/rs_pty_staging_DjBwh3.tmp to /home/jdakka/tmp_FzFmg8.slurm\n)
+2018-09-09 21:54:06,932: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [   79] (/tmp/rs_pty_staging_DjBwh3.tmp        0%    0     0.0KB/s   0.0KB/s   --:-- ETA)
+2018-09-09 21:54:07,118: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [   81] (/tmp/rs_pty_staging_DjBwh3.tmp      100%  869     4.6KB/s   0.9KB/s   00:00    \n)
+2018-09-09 21:54:07,304: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  164] [    6] (sftp> )
+2018-09-09 21:54:07,305: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : copy done: ['mput', 'Uploading', '/tmp/rs_pty_staging_DjBwh3.tmp', 'sftp>']
+2018-09-09 21:54:07,305: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:07,408: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  163] [   53] (sbatch 'tmp_FzFmg8.slurm'; rm -vf 'tmp_FzFmg8.slurm'\n)
+2018-09-09 21:54:07,849: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  163] [   30] (Submitted batch job 19001569\n)
+2018-09-09 21:54:07,852: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  163] [   38] (removed `tmp_FzFmg8.slurm'\nPROMPT-0->)
+2018-09-09 21:54:07,854: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:07,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:08,160: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [ 1230] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:08,161: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:08,264: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:08,469: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [ 1230] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:08,475: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:08,578: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:08,780: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : read : [  163] [ 1220] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:54:08,781: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:54:08,782: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:08,885: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:09,092: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1230] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:19,122: radical.saga.pty    : pmgr.0000.launching.0           : Thread-4       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:19,225: radical.saga.pty    : pmgr.0000.launching.0           : Thread-4       : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:19,430: radical.saga.pty    : pmgr.0000.launching.0           : Thread-4       : DEBUG   : read : [  163] [ 1230] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:19,431: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:19,534: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:19,739: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1230] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:29,771: radical.saga.pty    : pmgr.0000.launching.0           : Thread-5       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:29,873: radical.saga.pty    : pmgr.0000.launching.0           : Thread-5       : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:31,664: radical.saga.pty    : pmgr.0000.launching.0           : Thread-5       : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:31,665: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:31,767: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:31,973: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:42,004: radical.saga.pty    : pmgr.0000.launching.0           : Thread-6       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:42,108: radical.saga.pty    : pmgr.0000.launching.0           : Thread-6       : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:42,312: radical.saga.pty    : pmgr.0000.launching.0           : Thread-6       : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:42,314: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:42,417: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:42,619: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:54:42,620: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:54:52,659: radical.saga.pty    : pmgr.0000.launching.0           : Thread-7       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:52,760: radical.saga.pty    : pmgr.0000.launching.0           : Thread-7       : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:52,966: radical.saga.pty    : pmgr.0000.launching.0           : Thread-7       : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:54:52,966: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:54:53,067: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:54:53,269: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:03,282: radical.saga.pty    : pmgr.0000.launching.0           : Thread-8       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:03,382: radical.saga.pty    : pmgr.0000.launching.0           : Thread-8       : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:03,586: radical.saga.pty    : pmgr.0000.launching.0           : Thread-8       : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:03,586: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:03,687: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:03,890: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:13,902: radical.saga.pty    : pmgr.0000.launching.0           : Thread-9       : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:14,003: radical.saga.pty    : pmgr.0000.launching.0           : Thread-9       : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:14,208: radical.saga.pty    : pmgr.0000.launching.0           : Thread-9       : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:14,208: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:14,309: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:14,512: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:24,525: radical.saga.pty    : pmgr.0000.launching.0           : Thread-10      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:24,625: radical.saga.pty    : pmgr.0000.launching.0           : Thread-10      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:24,831: radical.saga.pty    : pmgr.0000.launching.0           : Thread-10      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:24,831: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:24,932: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:25,137: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:35,150: radical.saga.pty    : pmgr.0000.launching.0           : Thread-11      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:35,251: radical.saga.pty    : pmgr.0000.launching.0           : Thread-11      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:36,670: radical.saga.pty    : pmgr.0000.launching.0           : Thread-11      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:36,670: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:36,771: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:36,976: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:46,989: radical.saga.pty    : pmgr.0000.launching.0           : Thread-12      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:47,090: radical.saga.pty    : pmgr.0000.launching.0           : Thread-12      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:47,295: radical.saga.pty    : pmgr.0000.launching.0           : Thread-12      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:47,295: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:47,396: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:47,601: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:57,614: radical.saga.pty    : pmgr.0000.launching.0           : Thread-13      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:57,715: radical.saga.pty    : pmgr.0000.launching.0           : Thread-13      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:57,921: radical.saga.pty    : pmgr.0000.launching.0           : Thread-13      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:55:57,921: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:55:58,022: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:55:58,226: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:08,238: radical.saga.pty    : pmgr.0000.launching.0           : Thread-14      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:08,339: radical.saga.pty    : pmgr.0000.launching.0           : Thread-14      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:08,545: radical.saga.pty    : pmgr.0000.launching.0           : Thread-14      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:08,545: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:08,646: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:08,873: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:18,885: radical.saga.pty    : pmgr.0000.launching.0           : Thread-15      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:18,986: radical.saga.pty    : pmgr.0000.launching.0           : Thread-15      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:19,255: radical.saga.pty    : pmgr.0000.launching.0           : Thread-15      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:56:19,257: radical.saga.pty    : pmgr.0000.launching.0           : Thread-15      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:56:19,257: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:19,358: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:19,560: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:29,572: radical.saga.pty    : pmgr.0000.launching.0           : Thread-16      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:29,673: radical.saga.pty    : pmgr.0000.launching.0           : Thread-16      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:29,879: radical.saga.pty    : pmgr.0000.launching.0           : Thread-16      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:29,879: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:29,980: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:30,184: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:40,197: radical.saga.pty    : pmgr.0000.launching.0           : Thread-17      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:40,297: radical.saga.pty    : pmgr.0000.launching.0           : Thread-17      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:40,503: radical.saga.pty    : pmgr.0000.launching.0           : Thread-17      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:40,503: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:40,604: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:40,810: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:56:50,822: radical.saga.pty    : pmgr.0000.launching.0           : Thread-18      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:50,923: radical.saga.pty    : pmgr.0000.launching.0           : Thread-18      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:51,127: radical.saga.pty    : pmgr.0000.launching.0           : Thread-18      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:56:51,128: radical.saga.pty    : pmgr.0000.launching.0           : Thread-18      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:56:51,128: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:56:51,229: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:56:51,432: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:01,444: radical.saga.pty    : pmgr.0000.launching.0           : Thread-19      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:01,545: radical.saga.pty    : pmgr.0000.launching.0           : Thread-19      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:01,769: radical.saga.pty    : pmgr.0000.launching.0           : Thread-19      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:57:01,770: radical.saga.pty    : pmgr.0000.launching.0           : Thread-19      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:57:01,770: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:01,871: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:02,075: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:12,089: radical.saga.pty    : pmgr.0000.launching.0           : Thread-20      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:12,190: radical.saga.pty    : pmgr.0000.launching.0           : Thread-20      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:12,395: radical.saga.pty    : pmgr.0000.launching.0           : Thread-20      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:12,395: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:12,496: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:12,699: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:22,711: radical.saga.pty    : pmgr.0000.launching.0           : Thread-21      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:22,812: radical.saga.pty    : pmgr.0000.launching.0           : Thread-21      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:23,019: radical.saga.pty    : pmgr.0000.launching.0           : Thread-21      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:23,019: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:23,120: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:23,325: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:33,338: radical.saga.pty    : pmgr.0000.launching.0           : Thread-22      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:33,439: radical.saga.pty    : pmgr.0000.launching.0           : Thread-22      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:33,645: radical.saga.pty    : pmgr.0000.launching.0           : Thread-22      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:33,645: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:33,746: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:33,949: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:57:33,950: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:57:43,962: radical.saga.pty    : pmgr.0000.launching.0           : Thread-23      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:44,063: radical.saga.pty    : pmgr.0000.launching.0           : Thread-23      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:44,269: radical.saga.pty    : pmgr.0000.launching.0           : Thread-23      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:44,269: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:44,370: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:44,574: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:54,588: radical.saga.pty    : pmgr.0000.launching.0           : Thread-24      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:54,688: radical.saga.pty    : pmgr.0000.launching.0           : Thread-24      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:54,896: radical.saga.pty    : pmgr.0000.launching.0           : Thread-24      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:57:54,896: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:57:54,997: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:57:55,203: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:05,215: radical.saga.pty    : pmgr.0000.launching.0           : Thread-25      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:05,316: radical.saga.pty    : pmgr.0000.launching.0           : Thread-25      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:05,520: radical.saga.pty    : pmgr.0000.launching.0           : Thread-25      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:05,520: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:05,621: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:05,831: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:15,844: radical.saga.pty    : pmgr.0000.launching.0           : Thread-26      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:15,945: radical.saga.pty    : pmgr.0000.launching.0           : Thread-26      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:16,150: radical.saga.pty    : pmgr.0000.launching.0           : Thread-26      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:16,150: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:16,251: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:16,454: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:26,466: radical.saga.pty    : pmgr.0000.launching.0           : Thread-27      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:26,567: radical.saga.pty    : pmgr.0000.launching.0           : Thread-27      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:26,774: radical.saga.pty    : pmgr.0000.launching.0           : Thread-27      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:26,774: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:26,875: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:27,078: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:37,090: radical.saga.pty    : pmgr.0000.launching.0           : Thread-28      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:37,191: radical.saga.pty    : pmgr.0000.launching.0           : Thread-28      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:37,396: radical.saga.pty    : pmgr.0000.launching.0           : Thread-28      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:37,396: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:37,497: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:37,700: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:47,712: radical.saga.pty    : pmgr.0000.launching.0           : Thread-29      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:47,813: radical.saga.pty    : pmgr.0000.launching.0           : Thread-29      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:48,019: radical.saga.pty    : pmgr.0000.launching.0           : Thread-29      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:48,019: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:48,120: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:48,324: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:58,337: radical.saga.pty    : pmgr.0000.launching.0           : Thread-30      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:58,437: radical.saga.pty    : pmgr.0000.launching.0           : Thread-30      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:58,645: radical.saga.pty    : pmgr.0000.launching.0           : Thread-30      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:58:58,645: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:58:58,746: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:58:58,948: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:08,961: radical.saga.pty    : pmgr.0000.launching.0           : Thread-31      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:09,061: radical.saga.pty    : pmgr.0000.launching.0           : Thread-31      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:09,265: radical.saga.pty    : pmgr.0000.launching.0           : Thread-31      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:59:09,266: radical.saga.pty    : pmgr.0000.launching.0           : Thread-31      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:59:09,288: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:09,388: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:09,592: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:19,605: radical.saga.pty    : pmgr.0000.launching.0           : Thread-32      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:19,749: radical.saga.pty    : pmgr.0000.launching.0           : Thread-32      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:19,954: radical.saga.pty    : pmgr.0000.launching.0           : Thread-32      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:19,954: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:20,055: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:20,257: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:30,269: radical.saga.pty    : pmgr.0000.launching.0           : Thread-33      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:30,370: radical.saga.pty    : pmgr.0000.launching.0           : Thread-33      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:30,575: radical.saga.pty    : pmgr.0000.launching.0           : Thread-33      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:30,575: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:30,676: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:30,879: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:40,891: radical.saga.pty    : pmgr.0000.launching.0           : Thread-34      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:40,992: radical.saga.pty    : pmgr.0000.launching.0           : Thread-34      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:41,197: radical.saga.pty    : pmgr.0000.launching.0           : Thread-34      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:41,197: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:41,298: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:41,504: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 21:59:41,504: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 21:59:51,516: radical.saga.pty    : pmgr.0000.launching.0           : Thread-35      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:51,617: radical.saga.pty    : pmgr.0000.launching.0           : Thread-35      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:51,823: radical.saga.pty    : pmgr.0000.launching.0           : Thread-35      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 21:59:51,823: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 21:59:51,924: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 21:59:52,128: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:02,140: radical.saga.pty    : pmgr.0000.launching.0           : Thread-36      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:02,241: radical.saga.pty    : pmgr.0000.launching.0           : Thread-36      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:02,449: radical.saga.pty    : pmgr.0000.launching.0           : Thread-36      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:00:02,502: radical.saga.pty    : pmgr.0000.launching.0           : Thread-36      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:00:02,502: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:02,603: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:02,811: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:00:02,812: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:00:12,825: radical.saga.pty    : pmgr.0000.launching.0           : Thread-37      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:12,926: radical.saga.pty    : pmgr.0000.launching.0           : Thread-37      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:13,130: radical.saga.pty    : pmgr.0000.launching.0           : Thread-37      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:13,130: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:13,231: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:13,434: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:23,446: radical.saga.pty    : pmgr.0000.launching.0           : Thread-38      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:23,547: radical.saga.pty    : pmgr.0000.launching.0           : Thread-38      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:23,752: radical.saga.pty    : pmgr.0000.launching.0           : Thread-38      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:23,752: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:23,853: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:24,055: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:34,067: radical.saga.pty    : pmgr.0000.launching.0           : Thread-39      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:34,168: radical.saga.pty    : pmgr.0000.launching.0           : Thread-39      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:34,372: radical.saga.pty    : pmgr.0000.launching.0           : Thread-39      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:00:34,372: radical.saga.pty    : pmgr.0000.launching.0           : Thread-39      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:00:34,372: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:34,473: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:34,676: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:44,722: radical.saga.pty    : pmgr.0000.launching.0           : Thread-40      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:44,823: radical.saga.pty    : pmgr.0000.launching.0           : Thread-40      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:45,026: radical.saga.pty    : pmgr.0000.launching.0           : Thread-40      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:45,026: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:45,127: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:45,333: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:00:45,334: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:00:55,347: radical.saga.pty    : pmgr.0000.launching.0           : Thread-41      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:55,448: radical.saga.pty    : pmgr.0000.launching.0           : Thread-41      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:55,654: radical.saga.pty    : pmgr.0000.launching.0           : Thread-41      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:00:55,654: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:00:55,755: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:00:55,960: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:05,972: radical.saga.pty    : pmgr.0000.launching.0           : Thread-42      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:06,073: radical.saga.pty    : pmgr.0000.launching.0           : Thread-42      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:06,472: radical.saga.pty    : pmgr.0000.launching.0           : Thread-42      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:06,472: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:06,573: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:06,777: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:16,790: radical.saga.pty    : pmgr.0000.launching.0           : Thread-43      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:16,892: radical.saga.pty    : pmgr.0000.launching.0           : Thread-43      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:17,097: radical.saga.pty    : pmgr.0000.launching.0           : Thread-43      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:17,097: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:17,198: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:17,401: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:27,414: radical.saga.pty    : pmgr.0000.launching.0           : Thread-44      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:27,514: radical.saga.pty    : pmgr.0000.launching.0           : Thread-44      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:27,721: radical.saga.pty    : pmgr.0000.launching.0           : Thread-44      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:27,721: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:27,822: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:28,025: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:38,037: radical.saga.pty    : pmgr.0000.launching.0           : Thread-45      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:38,138: radical.saga.pty    : pmgr.0000.launching.0           : Thread-45      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:38,343: radical.saga.pty    : pmgr.0000.launching.0           : Thread-45      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:38,343: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:38,444: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:38,648: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:01:38,648: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:01:48,660: radical.saga.pty    : pmgr.0000.launching.0           : Thread-46      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:48,761: radical.saga.pty    : pmgr.0000.launching.0           : Thread-46      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:48,967: radical.saga.pty    : pmgr.0000.launching.0           : Thread-46      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:48,967: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:49,068: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:49,273: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:01:59,285: radical.saga.pty    : pmgr.0000.launching.0           : Thread-47      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:59,386: radical.saga.pty    : pmgr.0000.launching.0           : Thread-47      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:59,641: radical.saga.pty    : pmgr.0000.launching.0           : Thread-47      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:01:59,641: radical.saga.pty    : pmgr.0000.launching.0           : Thread-47      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:01:59,641: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:01:59,742: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:01:59,948: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:02:09,960: radical.saga.pty    : pmgr.0000.launching.0           : Thread-48      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:10,061: radical.saga.pty    : pmgr.0000.launching.0           : Thread-48      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:10,270: radical.saga.pty    : pmgr.0000.launching.0           : Thread-48      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:02:10,271: radical.saga.pty    : pmgr.0000.launching.0           : Thread-48      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:02:10,271: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:10,372: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:10,576: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:02:20,588: radical.saga.pty    : pmgr.0000.launching.0           : Thread-49      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:20,689: radical.saga.pty    : pmgr.0000.launching.0           : Thread-49      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:20,891: radical.saga.pty    : pmgr.0000.launching.0           : Thread-49      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:02:20,892: radical.saga.pty    : pmgr.0000.launching.0           : Thread-49      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:02:20,892: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:20,993: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:21,196: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:02:21,197: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:02:31,209: radical.saga.pty    : pmgr.0000.launching.0           : Thread-50      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:31,310: radical.saga.pty    : pmgr.0000.launching.0           : Thread-50      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:33,191: radical.saga.pty    : pmgr.0000.launching.0           : Thread-50      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:02:33,191: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:33,292: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:33,496: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:02:43,509: radical.saga.pty    : pmgr.0000.launching.0           : Thread-51      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:43,610: radical.saga.pty    : pmgr.0000.launching.0           : Thread-51      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:43,814: radical.saga.pty    : pmgr.0000.launching.0           : Thread-51      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:02:43,814: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:43,915: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:44,118: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:02:54,130: radical.saga.pty    : pmgr.0000.launching.0           : Thread-52      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:54,231: radical.saga.pty    : pmgr.0000.launching.0           : Thread-52      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:54,435: radical.saga.pty    : pmgr.0000.launching.0           : Thread-52      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:02:54,436: radical.saga.pty    : pmgr.0000.launching.0           : Thread-52      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:02:54,436: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:02:54,537: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:02:54,741: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:04,753: radical.saga.pty    : pmgr.0000.launching.0           : Thread-53      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:04,854: radical.saga.pty    : pmgr.0000.launching.0           : Thread-53      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:06,788: radical.saga.pty    : pmgr.0000.launching.0           : Thread-53      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:06,788: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:06,889: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:07,094: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:17,107: radical.saga.pty    : pmgr.0000.launching.0           : Thread-54      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:17,207: radical.saga.pty    : pmgr.0000.launching.0           : Thread-54      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:17,415: radical.saga.pty    : pmgr.0000.launching.0           : Thread-54      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:17,415: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:17,516: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:17,719: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:27,732: radical.saga.pty    : pmgr.0000.launching.0           : Thread-55      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:27,833: radical.saga.pty    : pmgr.0000.launching.0           : Thread-55      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:28,042: radical.saga.pty    : pmgr.0000.launching.0           : Thread-55      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:28,042: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:28,143: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:28,346: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:03:28,348: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:03:38,360: radical.saga.pty    : pmgr.0000.launching.0           : Thread-56      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:38,461: radical.saga.pty    : pmgr.0000.launching.0           : Thread-56      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:39,328: radical.saga.pty    : pmgr.0000.launching.0           : Thread-56      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:39,328: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:39,429: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:39,631: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:49,643: radical.saga.pty    : pmgr.0000.launching.0           : Thread-57      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:49,744: radical.saga.pty    : pmgr.0000.launching.0           : Thread-57      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:49,949: radical.saga.pty    : pmgr.0000.launching.0           : Thread-57      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:03:49,949: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:03:50,050: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:03:50,254: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:00,267: radical.saga.pty    : pmgr.0000.launching.0           : Thread-58      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:00,368: radical.saga.pty    : pmgr.0000.launching.0           : Thread-58      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:00,573: radical.saga.pty    : pmgr.0000.launching.0           : Thread-58      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:00,573: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:00,674: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:00,877: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:10,890: radical.saga.pty    : pmgr.0000.launching.0           : Thread-59      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:10,991: radical.saga.pty    : pmgr.0000.launching.0           : Thread-59      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:11,836: radical.saga.pty    : pmgr.0000.launching.0           : Thread-59      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:11,836: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:11,937: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:12,139: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:04:12,140: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:04:22,152: radical.saga.pty    : pmgr.0000.launching.0           : Thread-60      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:22,253: radical.saga.pty    : pmgr.0000.launching.0           : Thread-60      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:22,457: radical.saga.pty    : pmgr.0000.launching.0           : Thread-60      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:22,457: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:22,558: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:22,762: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:32,774: radical.saga.pty    : pmgr.0000.launching.0           : Thread-61      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:32,875: radical.saga.pty    : pmgr.0000.launching.0           : Thread-61      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:33,082: radical.saga.pty    : pmgr.0000.launching.0           : Thread-61      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:33,082: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:33,183: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:33,385: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:04:33,386: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:04:43,398: radical.saga.pty    : pmgr.0000.launching.0           : Thread-62      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:43,499: radical.saga.pty    : pmgr.0000.launching.0           : Thread-62      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:44,559: radical.saga.pty    : pmgr.0000.launching.0           : Thread-62      : DEBUG   : read : [  163] [ 1301] (JobId=19001569 JobName=pilot.0 ... ilot.0000//bootstrap_0.out\n\n)
+2018-09-09 22:04:44,559: radical.saga.pty    : pmgr.0000.launching.0           : Thread-62      : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2018-09-09 22:04:44,559: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:44,660: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:44,865: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:54,878: radical.saga.pty    : pmgr.0000.launching.0           : Thread-63      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:54,979: radical.saga.pty    : pmgr.0000.launching.0           : Thread-63      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:55,185: radical.saga.pty    : pmgr.0000.launching.0           : Thread-63      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:04:55,185: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:04:55,286: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:04:55,491: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:05:05,519: radical.saga.pty    : pmgr.0000.launching.0           : Thread-64      : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:05:05,621: radical.saga.pty    : pmgr.0000.launching.0           : Thread-64      : DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:05:05,826: radical.saga.pty    : pmgr.0000.launching.0           : Thread-64      : DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+2018-09-09 22:05:05,827: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2018-09-09 22:05:05,930: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : write: [  163] [   27] (scontrol show job 19001569\n)
+2018-09-09 22:05:06,133: radical.saga.pty    : pmgr.0000.launching.0           : pmgr.0000.launching.0.child.idler._pilot_watcher_cb: DEBUG   : read : [  163] [ 1311] (JobId=19001569 JobName=pilot.0 ... /bootstrap_0.out\n\nPROMPT-0->)
+/home/jdakka/hyperspace/python-2.7-ve/local/lib/python2.7/site-packages/pymongo/topology.py:149: UserWarning: MongoClient opened before fork. Create MongoClient only after forking. See PyMongo's docu

@@ -1,0 +1,45 @@
+2018-09-09 13:19:39,306: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 13:19:39,306: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : INFO    :                      pid/tid: 12931/MainThread
+2018-09-09 13:19:39,306: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : INFO    : create control_pubsub - sub - tcp://198.202.113.101:36492
+2018-09-09 13:19:39,306: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : start process
+2018-09-09 13:19:39,306: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 13:19:39,306: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 13:19:39,307: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : process class started (no child)
+2018-09-09 13:19:39,459: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 13:19:39,460: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    :                      pid/tid: 12951/MainThread
+2018-09-09 13:19:39,460: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    : create control_pubsub - sub - tcp://198.202.113.101:36492
+2018-09-09 13:19:39,460: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : start process
+2018-09-09 13:19:39,460: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 13:19:39,460: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 13:19:39,460: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)
+2018-09-09 13:19:39,620: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 13:19:39,620: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : INFO    :                      pid/tid: 12981/MainThread
+2018-09-09 13:19:39,620: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : INFO    : create control_pubsub - sub - tcp://198.202.113.101:36492
+2018-09-09 13:19:39,620: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : start process
+2018-09-09 13:19:39,621: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 13:19:39,621: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 13:19:39,621: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : process class started (no child)
+2018-09-09 13:19:39,764: control.pubsub.sub.0000: update.0                        : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 13:19:39,764: control.pubsub.sub.0000: update.0                        : MainThread     : INFO    :                      pid/tid: 13003/MainThread
+2018-09-09 13:19:39,764: control.pubsub.sub.0000: update.0                        : MainThread     : INFO    : create control_pubsub - sub - tcp://198.202.113.101:36492
+2018-09-09 13:19:39,765: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : start process
+2018-09-09 13:19:39,765: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 13:19:39,765: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 13:19:39,765: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : process class started (no child)
+2018-09-09 13:19:40,276: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 13:19:40,276: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : INFO    :                      pid/tid: 13026/MainThread
+2018-09-09 13:19:40,276: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : INFO    : create control_pubsub - sub - tcp://198.202.113.101:36492
+2018-09-09 13:19:40,276: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : start process
+2018-09-09 13:19:40,276: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 13:19:40,277: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 13:19:40,277: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : process class started (no child)
+2018-09-09 13:30:17,121: control.pubsub.sub.0000: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  12981 -> None [control.pubsub.sub.0000]
+2018-09-09 13:30:17,122: control.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  12951 -> None [control.pubsub.sub.0000]
+2018-09-09 13:30:17,122: control.pubsub.sub.0000: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  12931 -> None [control.pubsub.sub.0000]
+2018-09-09 13:30:17,122: control.pubsub.sub.0000: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2018-09-09 13:30:17,122: control.pubsub.sub.0000: update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  13003 -> None [control.pubsub.sub.0000]
+2018-09-09 13:30:17,122: control.pubsub.sub.0000: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  13026 -> None [control.pubsub.sub.0000]
+2018-09-09 13:30:17,122: control.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2018-09-09 13:30:17,123: control.pubsub.sub.0000: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2018-09-09 13:30:17,123: control.pubsub.sub.0000: update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2018-09-09 13:30:17,124: control.pubsub.sub.0000: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)

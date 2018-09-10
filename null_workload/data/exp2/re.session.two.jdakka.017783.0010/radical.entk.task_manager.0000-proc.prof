@@ -1,0 +1,838 @@
+#time,event,comp,thread,uid,state,msg
+1536522885.6387,sync_abs,radical.entk.task_manager.0000-proc,MainThread,,,localhost.localdomain:138.201.86.166:1536522885.64:1536522885.63:ntp
+1536522885.6388,tmgr process started,radical.entk.task_manager.0000-proc,MainThread,task_manager.0000,,
+1536522887.9648,tmgr infrastructure setup done,radical.entk.task_manager.0000-proc,MainThread,task_manager.0000,,
+1536522887.9668,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0000,,
+1536522887.9676,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0000,,
+1536522887.9677,advance,radical.entk.task_manager.0000-proc,MainThread,task.0000,SUBMITTING,stage.0000
+1536522887.9679,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0000,,stage.0000
+1536522887.9697,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0000,,stage.0000
+1536522887.9699,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0001,,
+1536522887.9706,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0001,,
+1536522887.9706,advance,radical.entk.task_manager.0000-proc,MainThread,task.0001,SUBMITTING,stage.0000
+1536522887.9708,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0001,,stage.0000
+1536522887.9721,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0001,,stage.0000
+1536522887.9722,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0002,,
+1536522887.9730,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0002,,
+1536522887.9730,advance,radical.entk.task_manager.0000-proc,MainThread,task.0002,SUBMITTING,stage.0000
+1536522887.9733,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0002,,stage.0000
+1536522887.9741,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0002,,stage.0000
+1536522887.9743,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0003,,
+1536522887.9752,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0003,,
+1536522887.9752,advance,radical.entk.task_manager.0000-proc,MainThread,task.0003,SUBMITTING,stage.0000
+1536522887.9754,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0003,,stage.0000
+1536522887.9763,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0003,,stage.0000
+1536522887.9765,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0004,,
+1536522887.9774,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0004,,
+1536522887.9774,advance,radical.entk.task_manager.0000-proc,MainThread,task.0004,SUBMITTING,stage.0000
+1536522887.9777,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0004,,stage.0000
+1536522887.9788,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0004,,stage.0000
+1536522887.9790,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0005,,
+1536522887.9799,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0005,,
+1536522887.9799,advance,radical.entk.task_manager.0000-proc,MainThread,task.0005,SUBMITTING,stage.0000
+1536522887.9801,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0005,,stage.0000
+1536522887.9810,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0005,,stage.0000
+1536522887.9812,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0006,,
+1536522887.9821,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0006,,
+1536522887.9821,advance,radical.entk.task_manager.0000-proc,MainThread,task.0006,SUBMITTING,stage.0000
+1536522887.9823,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0006,,stage.0000
+1536522887.9834,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0006,,stage.0000
+1536522887.9835,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0007,,
+1536522887.9842,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0007,,
+1536522887.9842,advance,radical.entk.task_manager.0000-proc,MainThread,task.0007,SUBMITTING,stage.0000
+1536522887.9844,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0007,,stage.0000
+1536522887.9857,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0007,,stage.0000
+1536522887.9859,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0008,,
+1536522887.9868,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0008,,
+1536522887.9868,advance,radical.entk.task_manager.0000-proc,MainThread,task.0008,SUBMITTING,stage.0000
+1536522887.9871,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0008,,stage.0000
+1536522887.9882,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0008,,stage.0000
+1536522887.9884,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0009,,
+1536522887.9892,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0009,,
+1536522887.9893,advance,radical.entk.task_manager.0000-proc,MainThread,task.0009,SUBMITTING,stage.0000
+1536522887.9895,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0009,,stage.0000
+1536522887.9909,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0009,,stage.0000
+1536522887.9911,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0010,,
+1536522887.9920,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0010,,
+1536522887.9920,advance,radical.entk.task_manager.0000-proc,MainThread,task.0010,SUBMITTING,stage.0000
+1536522887.9922,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0010,,stage.0000
+1536522887.9935,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0010,,stage.0000
+1536522887.9937,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0011,,
+1536522887.9945,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0011,,
+1536522887.9945,advance,radical.entk.task_manager.0000-proc,MainThread,task.0011,SUBMITTING,stage.0000
+1536522887.9947,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0011,,stage.0000
+1536522887.9959,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0011,,stage.0000
+1536522887.9961,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0012,,
+1536522887.9970,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0012,,
+1536522887.9970,advance,radical.entk.task_manager.0000-proc,MainThread,task.0012,SUBMITTING,stage.0000
+1536522887.9972,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0012,,stage.0000
+1536522887.9985,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0012,,stage.0000
+1536522887.9987,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0013,,
+1536522887.9996,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0013,,
+1536522887.9996,advance,radical.entk.task_manager.0000-proc,MainThread,task.0013,SUBMITTING,stage.0000
+1536522887.9998,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0013,,stage.0000
+1536522888.0014,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0013,,stage.0000
+1536522888.0016,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0014,,
+1536522888.0026,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0014,,
+1536522888.0026,advance,radical.entk.task_manager.0000-proc,MainThread,task.0014,SUBMITTING,stage.0000
+1536522888.0028,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0014,,stage.0000
+1536522888.0036,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0014,,stage.0000
+1536522888.0038,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0015,,
+1536522888.0048,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0015,,
+1536522888.0048,advance,radical.entk.task_manager.0000-proc,MainThread,task.0015,SUBMITTING,stage.0000
+1536522888.0050,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0015,,stage.0000
+1536522888.0058,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0015,,stage.0000
+1536522888.0060,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0016,,
+1536522888.0068,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0016,,
+1536522888.0069,advance,radical.entk.task_manager.0000-proc,MainThread,task.0016,SUBMITTING,stage.0000
+1536522888.0071,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0016,,stage.0000
+1536522888.0081,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0016,,stage.0000
+1536522888.0082,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0017,,
+1536522888.0092,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0017,,
+1536522888.0092,advance,radical.entk.task_manager.0000-proc,MainThread,task.0017,SUBMITTING,stage.0000
+1536522888.0094,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0017,,stage.0000
+1536522888.0111,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0017,,stage.0000
+1536522888.0113,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0018,,
+1536522888.0123,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0018,,
+1536522888.0123,advance,radical.entk.task_manager.0000-proc,MainThread,task.0018,SUBMITTING,stage.0000
+1536522888.0125,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0018,,stage.0000
+1536522888.0140,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0018,,stage.0000
+1536522888.0142,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0019,,
+1536522888.0152,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0019,,
+1536522888.0152,advance,radical.entk.task_manager.0000-proc,MainThread,task.0019,SUBMITTING,stage.0000
+1536522888.0154,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0019,,stage.0000
+1536522888.0169,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0019,,stage.0000
+1536522888.0170,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0020,,
+1536522888.0180,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0020,,
+1536522888.0181,advance,radical.entk.task_manager.0000-proc,MainThread,task.0020,SUBMITTING,stage.0000
+1536522888.0183,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0020,,stage.0000
+1536522888.0191,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0020,,stage.0000
+1536522888.0193,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0021,,
+1536522888.0203,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0021,,
+1536522888.0203,advance,radical.entk.task_manager.0000-proc,MainThread,task.0021,SUBMITTING,stage.0000
+1536522888.0205,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0021,,stage.0000
+1536522888.0221,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0021,,stage.0000
+1536522888.0223,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0022,,
+1536522888.0232,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0022,,
+1536522888.0232,advance,radical.entk.task_manager.0000-proc,MainThread,task.0022,SUBMITTING,stage.0000
+1536522888.0234,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0022,,stage.0000
+1536522888.0249,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0022,,stage.0000
+1536522888.0251,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0023,,
+1536522888.0261,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0023,,
+1536522888.0261,advance,radical.entk.task_manager.0000-proc,MainThread,task.0023,SUBMITTING,stage.0000
+1536522888.0263,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0023,,stage.0000
+1536522888.0277,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0023,,stage.0000
+1536522888.0279,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0024,,
+1536522888.0289,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0024,,
+1536522888.0289,advance,radical.entk.task_manager.0000-proc,MainThread,task.0024,SUBMITTING,stage.0000
+1536522888.0292,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0024,,stage.0000
+1536522888.0299,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0024,,stage.0000
+1536522888.0301,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0025,,
+1536522888.0311,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0025,,
+1536522888.0311,advance,radical.entk.task_manager.0000-proc,MainThread,task.0025,SUBMITTING,stage.0000
+1536522888.0313,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0025,,stage.0000
+1536522888.0324,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0025,,stage.0000
+1536522888.0326,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0026,,
+1536522888.0333,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0026,,
+1536522888.0334,advance,radical.entk.task_manager.0000-proc,MainThread,task.0026,SUBMITTING,stage.0000
+1536522888.0335,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0026,,stage.0000
+1536522888.0349,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0026,,stage.0000
+1536522888.0350,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0027,,
+1536522888.0361,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0027,,
+1536522888.0361,advance,radical.entk.task_manager.0000-proc,MainThread,task.0027,SUBMITTING,stage.0000
+1536522888.0363,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0027,,stage.0000
+1536522888.0373,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0027,,stage.0000
+1536522888.0374,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0028,,
+1536522888.0384,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0028,,
+1536522888.0384,advance,radical.entk.task_manager.0000-proc,MainThread,task.0028,SUBMITTING,stage.0000
+1536522888.0386,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0028,,stage.0000
+1536522888.0402,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0028,,stage.0000
+1536522888.0404,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0029,,
+1536522888.0413,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0029,,
+1536522888.0414,advance,radical.entk.task_manager.0000-proc,MainThread,task.0029,SUBMITTING,stage.0000
+1536522888.0416,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0029,,stage.0000
+1536522888.0437,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0029,,stage.0000
+1536522888.0438,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0030,,
+1536522888.0449,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0030,,
+1536522888.0449,advance,radical.entk.task_manager.0000-proc,MainThread,task.0030,SUBMITTING,stage.0000
+1536522888.0451,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0030,,stage.0000
+1536522888.0463,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0030,,stage.0000
+1536522888.0465,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0031,,
+1536522888.0474,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0031,,
+1536522888.0474,advance,radical.entk.task_manager.0000-proc,MainThread,task.0031,SUBMITTING,stage.0000
+1536522888.0476,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0031,,stage.0000
+1536522888.0490,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0031,,stage.0000
+1536522888.0491,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0032,,
+1536522888.0517,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0032,,
+1536522888.0518,advance,radical.entk.task_manager.0000-proc,MainThread,task.0032,SUBMITTING,stage.0000
+1536522888.0520,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0032,,stage.0000
+1536522888.0537,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0032,,stage.0000
+1536522888.0539,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0033,,
+1536522888.0545,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0033,,
+1536522888.0545,advance,radical.entk.task_manager.0000-proc,MainThread,task.0033,SUBMITTING,stage.0000
+1536522888.0547,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0033,,stage.0000
+1536522888.0560,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0033,,stage.0000
+1536522888.0562,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0034,,
+1536522888.0573,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0034,,
+1536522888.0574,advance,radical.entk.task_manager.0000-proc,MainThread,task.0034,SUBMITTING,stage.0000
+1536522888.0576,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0034,,stage.0000
+1536522888.0590,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0034,,stage.0000
+1536522888.0592,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0035,,
+1536522888.0602,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0035,,
+1536522888.0602,advance,radical.entk.task_manager.0000-proc,MainThread,task.0035,SUBMITTING,stage.0000
+1536522888.0604,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0035,,stage.0000
+1536522888.0622,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0035,,stage.0000
+1536522888.0623,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0036,,
+1536522888.0630,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0036,,
+1536522888.0630,advance,radical.entk.task_manager.0000-proc,MainThread,task.0036,SUBMITTING,stage.0000
+1536522888.0632,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0036,,stage.0000
+1536522888.0655,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0036,,stage.0000
+1536522888.0657,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0037,,
+1536522888.0666,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0037,,
+1536522888.0667,advance,radical.entk.task_manager.0000-proc,MainThread,task.0037,SUBMITTING,stage.0000
+1536522888.0669,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0037,,stage.0000
+1536522888.0678,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0037,,stage.0000
+1536522888.0680,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0038,,
+1536522888.0687,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0038,,
+1536522888.0688,advance,radical.entk.task_manager.0000-proc,MainThread,task.0038,SUBMITTING,stage.0000
+1536522888.0690,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0038,,stage.0000
+1536522888.0702,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0038,,stage.0000
+1536522888.0704,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0039,,
+1536522888.0711,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0039,,
+1536522888.0711,advance,radical.entk.task_manager.0000-proc,MainThread,task.0039,SUBMITTING,stage.0000
+1536522888.0713,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0039,,stage.0000
+1536522888.0730,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0039,,stage.0000
+1536522888.0732,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0040,,
+1536522888.0742,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0040,,
+1536522888.0742,advance,radical.entk.task_manager.0000-proc,MainThread,task.0040,SUBMITTING,stage.0000
+1536522888.0744,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0040,,stage.0000
+1536522888.0764,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0040,,stage.0000
+1536522888.0766,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0041,,
+1536522888.0775,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0041,,
+1536522888.0776,advance,radical.entk.task_manager.0000-proc,MainThread,task.0041,SUBMITTING,stage.0000
+1536522888.0778,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0041,,stage.0000
+1536522888.0786,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0041,,stage.0000
+1536522888.0788,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0042,,
+1536522888.0796,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0042,,
+1536522888.0797,advance,radical.entk.task_manager.0000-proc,MainThread,task.0042,SUBMITTING,stage.0000
+1536522888.0799,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0042,,stage.0000
+1536522888.0811,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0042,,stage.0000
+1536522888.0813,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0043,,
+1536522888.0822,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0043,,
+1536522888.0823,advance,radical.entk.task_manager.0000-proc,MainThread,task.0043,SUBMITTING,stage.0000
+1536522888.0825,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0043,,stage.0000
+1536522888.0835,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0043,,stage.0000
+1536522888.0837,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0044,,
+1536522888.0847,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0044,,
+1536522888.0847,advance,radical.entk.task_manager.0000-proc,MainThread,task.0044,SUBMITTING,stage.0000
+1536522888.0849,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0044,,stage.0000
+1536522888.0869,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0044,,stage.0000
+1536522888.0871,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0045,,
+1536522888.0881,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0045,,
+1536522888.0881,advance,radical.entk.task_manager.0000-proc,MainThread,task.0045,SUBMITTING,stage.0000
+1536522888.0883,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0045,,stage.0000
+1536522888.0897,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0045,,stage.0000
+1536522888.0899,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0046,,
+1536522888.0909,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0046,,
+1536522888.0909,advance,radical.entk.task_manager.0000-proc,MainThread,task.0046,SUBMITTING,stage.0000
+1536522888.0911,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0046,,stage.0000
+1536522888.0923,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0046,,stage.0000
+1536522888.0925,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0047,,
+1536522888.0933,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0047,,
+1536522888.0933,advance,radical.entk.task_manager.0000-proc,MainThread,task.0047,SUBMITTING,stage.0000
+1536522888.0935,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0047,,stage.0000
+1536522888.0956,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0047,,stage.0000
+1536522888.0957,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0048,,
+1536522888.0966,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0048,,
+1536522888.0966,advance,radical.entk.task_manager.0000-proc,MainThread,task.0048,SUBMITTING,stage.0000
+1536522888.0968,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0048,,stage.0000
+1536522888.0980,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0048,,stage.0000
+1536522888.0982,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0049,,
+1536522888.0988,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0049,,
+1536522888.0989,advance,radical.entk.task_manager.0000-proc,MainThread,task.0049,SUBMITTING,stage.0000
+1536522888.0991,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0049,,stage.0000
+1536522888.1009,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0049,,stage.0000
+1536522888.1011,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0050,,
+1536522888.1018,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0050,,
+1536522888.1018,advance,radical.entk.task_manager.0000-proc,MainThread,task.0050,SUBMITTING,stage.0000
+1536522888.1020,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0050,,stage.0000
+1536522888.1033,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0050,,stage.0000
+1536522888.1035,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0051,,
+1536522888.1042,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0051,,
+1536522888.1042,advance,radical.entk.task_manager.0000-proc,MainThread,task.0051,SUBMITTING,stage.0000
+1536522888.1044,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0051,,stage.0000
+1536522888.1060,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0051,,stage.0000
+1536522888.1062,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0052,,
+1536522888.1071,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0052,,
+1536522888.1071,advance,radical.entk.task_manager.0000-proc,MainThread,task.0052,SUBMITTING,stage.0000
+1536522888.1073,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0052,,stage.0000
+1536522888.1089,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0052,,stage.0000
+1536522888.1090,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0053,,
+1536522888.1098,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0053,,
+1536522888.1098,advance,radical.entk.task_manager.0000-proc,MainThread,task.0053,SUBMITTING,stage.0000
+1536522888.1101,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0053,,stage.0000
+1536522888.1113,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0053,,stage.0000
+1536522888.1115,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0054,,
+1536522888.1124,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0054,,
+1536522888.1125,advance,radical.entk.task_manager.0000-proc,MainThread,task.0054,SUBMITTING,stage.0000
+1536522888.1127,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0054,,stage.0000
+1536522888.1148,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0054,,stage.0000
+1536522888.1150,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0055,,
+1536522888.1160,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0055,,
+1536522888.1160,advance,radical.entk.task_manager.0000-proc,MainThread,task.0055,SUBMITTING,stage.0000
+1536522888.1162,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0055,,stage.0000
+1536522888.1175,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0055,,stage.0000
+1536522888.1176,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0056,,
+1536522888.1185,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0056,,
+1536522888.1185,advance,radical.entk.task_manager.0000-proc,MainThread,task.0056,SUBMITTING,stage.0000
+1536522888.1187,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0056,,stage.0000
+1536522888.1203,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0056,,stage.0000
+1536522888.1205,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0057,,
+1536522888.1213,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0057,,
+1536522888.1213,advance,radical.entk.task_manager.0000-proc,MainThread,task.0057,SUBMITTING,stage.0000
+1536522888.1215,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0057,,stage.0000
+1536522888.1227,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0057,,stage.0000
+1536522888.1229,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0058,,
+1536522888.1238,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0058,,
+1536522888.1238,advance,radical.entk.task_manager.0000-proc,MainThread,task.0058,SUBMITTING,stage.0000
+1536522888.1240,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0058,,stage.0000
+1536522888.1255,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0058,,stage.0000
+1536522888.1257,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0059,,
+1536522888.1266,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0059,,
+1536522888.1267,advance,radical.entk.task_manager.0000-proc,MainThread,task.0059,SUBMITTING,stage.0000
+1536522888.1268,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0059,,stage.0000
+1536522888.1279,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0059,,stage.0000
+1536522888.1280,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0060,,
+1536522888.1291,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0060,,
+1536522888.1291,advance,radical.entk.task_manager.0000-proc,MainThread,task.0060,SUBMITTING,stage.0000
+1536522888.1293,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0060,,stage.0000
+1536522888.1307,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0060,,stage.0000
+1536522888.1308,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0061,,
+1536522888.1318,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0061,,
+1536522888.1318,advance,radical.entk.task_manager.0000-proc,MainThread,task.0061,SUBMITTING,stage.0000
+1536522888.1321,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0061,,stage.0000
+1536522888.1335,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0061,,stage.0000
+1536522888.1337,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0062,,
+1536522888.1344,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0062,,
+1536522888.1344,advance,radical.entk.task_manager.0000-proc,MainThread,task.0062,SUBMITTING,stage.0000
+1536522888.1346,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0062,,stage.0000
+1536522888.1360,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0062,,stage.0000
+1536522888.1361,cud from task - create,radical.entk.task_manager.0000-proc,MainThread,task.0063,,
+1536522888.1368,cud from task - done,radical.entk.task_manager.0000-proc,MainThread,task.0063,,
+1536522888.1368,advance,radical.entk.task_manager.0000-proc,MainThread,task.0063,SUBMITTING,stage.0000
+1536522888.1370,publishing obj with state SUBMITTING for sync,radical.entk.task_manager.0000-proc,MainThread,task.0063,,stage.0000
+1536522888.1382,obj with state SUBMITTING synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0063,,stage.0000
+1536522888.5008,advance,radical.entk.task_manager.0000-proc,MainThread,task.0000,SUBMITTED,stage.0000
+1536522888.5010,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0000,,stage.0000
+1536522888.5072,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0000,,stage.0000
+1536522888.5079,advance,radical.entk.task_manager.0000-proc,MainThread,task.0001,SUBMITTED,stage.0000
+1536522888.5086,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0001,,stage.0000
+1536522888.5110,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0001,,stage.0000
+1536522888.5117,advance,radical.entk.task_manager.0000-proc,MainThread,task.0002,SUBMITTED,stage.0000
+1536522888.5125,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0002,,stage.0000
+1536522888.5132,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0002,,stage.0000
+1536522888.5138,advance,radical.entk.task_manager.0000-proc,MainThread,task.0003,SUBMITTED,stage.0000
+1536522888.5144,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0003,,stage.0000
+1536522888.5163,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0003,,stage.0000
+1536522888.5167,advance,radical.entk.task_manager.0000-proc,MainThread,task.0004,SUBMITTED,stage.0000
+1536522888.5175,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0004,,stage.0000
+1536522888.5197,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0004,,stage.0000
+1536522888.5203,advance,radical.entk.task_manager.0000-proc,MainThread,task.0005,SUBMITTED,stage.0000
+1536522888.5207,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0005,,stage.0000
+1536522888.5227,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0005,,stage.0000
+1536522888.5233,advance,radical.entk.task_manager.0000-proc,MainThread,task.0006,SUBMITTED,stage.0000
+1536522888.5237,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0006,,stage.0000
+1536522888.5253,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0006,,stage.0000
+1536522888.5259,advance,radical.entk.task_manager.0000-proc,MainThread,task.0007,SUBMITTED,stage.0000
+1536522888.5265,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0007,,stage.0000
+1536522888.5285,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0007,,stage.0000
+1536522888.5291,advance,radical.entk.task_manager.0000-proc,MainThread,task.0008,SUBMITTED,stage.0000
+1536522888.5298,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0008,,stage.0000
+1536522888.5308,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0008,,stage.0000
+1536522888.5314,advance,radical.entk.task_manager.0000-proc,MainThread,task.0009,SUBMITTED,stage.0000
+1536522888.5320,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0009,,stage.0000
+1536522888.5338,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0009,,stage.0000
+1536522888.5344,advance,radical.entk.task_manager.0000-proc,MainThread,task.0010,SUBMITTED,stage.0000
+1536522888.5351,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0010,,stage.0000
+1536522888.5369,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0010,,stage.0000
+1536522888.5375,advance,radical.entk.task_manager.0000-proc,MainThread,task.0011,SUBMITTED,stage.0000
+1536522888.5381,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0011,,stage.0000
+1536522888.5395,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0011,,stage.0000
+1536522888.5401,advance,radical.entk.task_manager.0000-proc,MainThread,task.0012,SUBMITTED,stage.0000
+1536522888.5408,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0012,,stage.0000
+1536522888.5424,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0012,,stage.0000
+1536522888.5430,advance,radical.entk.task_manager.0000-proc,MainThread,task.0013,SUBMITTED,stage.0000
+1536522888.5436,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0013,,stage.0000
+1536522888.5454,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0013,,stage.0000
+1536522888.5458,advance,radical.entk.task_manager.0000-proc,MainThread,task.0014,SUBMITTED,stage.0000
+1536522888.5466,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0014,,stage.0000
+1536522888.5478,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0014,,stage.0000
+1536522888.5484,advance,radical.entk.task_manager.0000-proc,MainThread,task.0015,SUBMITTED,stage.0000
+1536522888.5491,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0015,,stage.0000
+1536522888.5504,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0015,,stage.0000
+1536522888.5510,advance,radical.entk.task_manager.0000-proc,MainThread,task.0016,SUBMITTED,stage.0000
+1536522888.5515,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0016,,stage.0000
+1536522888.5530,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0016,,stage.0000
+1536522888.5535,advance,radical.entk.task_manager.0000-proc,MainThread,task.0017,SUBMITTED,stage.0000
+1536522888.5542,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0017,,stage.0000
+1536522888.5555,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0017,,stage.0000
+1536522888.5565,advance,radical.entk.task_manager.0000-proc,MainThread,task.0018,SUBMITTED,stage.0000
+1536522888.5572,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0018,,stage.0000
+1536522888.5585,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0018,,stage.0000
+1536522888.5590,advance,radical.entk.task_manager.0000-proc,MainThread,task.0019,SUBMITTED,stage.0000
+1536522888.5596,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0019,,stage.0000
+1536522888.5607,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0019,,stage.0000
+1536522888.5613,advance,radical.entk.task_manager.0000-proc,MainThread,task.0020,SUBMITTED,stage.0000
+1536522888.5618,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0020,,stage.0000
+1536522888.5638,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0020,,stage.0000
+1536522888.5642,advance,radical.entk.task_manager.0000-proc,MainThread,task.0021,SUBMITTED,stage.0000
+1536522888.5649,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0021,,stage.0000
+1536522888.5668,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0021,,stage.0000
+1536522888.5674,advance,radical.entk.task_manager.0000-proc,MainThread,task.0022,SUBMITTED,stage.0000
+1536522888.5679,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0022,,stage.0000
+1536522888.5695,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0022,,stage.0000
+1536522888.5704,advance,radical.entk.task_manager.0000-proc,MainThread,task.0023,SUBMITTED,stage.0000
+1536522888.5711,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0023,,stage.0000
+1536522888.5728,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0023,,stage.0000
+1536522888.5734,advance,radical.entk.task_manager.0000-proc,MainThread,task.0024,SUBMITTED,stage.0000
+1536522888.5741,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0024,,stage.0000
+1536522888.5757,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0024,,stage.0000
+1536522888.5764,advance,radical.entk.task_manager.0000-proc,MainThread,task.0025,SUBMITTED,stage.0000
+1536522888.5770,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0025,,stage.0000
+1536522888.5792,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0025,,stage.0000
+1536522888.5799,advance,radical.entk.task_manager.0000-proc,MainThread,task.0026,SUBMITTED,stage.0000
+1536522888.5828,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0026,,stage.0000
+1536522888.5847,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0026,,stage.0000
+1536522888.5852,advance,radical.entk.task_manager.0000-proc,MainThread,task.0027,SUBMITTED,stage.0000
+1536522888.5857,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0027,,stage.0000
+1536522888.5873,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0027,,stage.0000
+1536522888.5879,advance,radical.entk.task_manager.0000-proc,MainThread,task.0028,SUBMITTED,stage.0000
+1536522888.5885,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0028,,stage.0000
+1536522888.5897,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0028,,stage.0000
+1536522888.5901,advance,radical.entk.task_manager.0000-proc,MainThread,task.0029,SUBMITTED,stage.0000
+1536522888.5910,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0029,,stage.0000
+1536522888.5922,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0029,,stage.0000
+1536522888.5927,advance,radical.entk.task_manager.0000-proc,MainThread,task.0030,SUBMITTED,stage.0000
+1536522888.5932,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0030,,stage.0000
+1536522888.5953,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0030,,stage.0000
+1536522888.5959,advance,radical.entk.task_manager.0000-proc,MainThread,task.0031,SUBMITTED,stage.0000
+1536522888.5964,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0031,,stage.0000
+1536522888.5984,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0031,,stage.0000
+1536522888.5993,advance,radical.entk.task_manager.0000-proc,MainThread,task.0032,SUBMITTED,stage.0000
+1536522888.5999,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0032,,stage.0000
+1536522888.6014,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0032,,stage.0000
+1536522888.6026,advance,radical.entk.task_manager.0000-proc,MainThread,task.0033,SUBMITTED,stage.0000
+1536522888.6028,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0033,,stage.0000
+1536522888.6051,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0033,,stage.0000
+1536522888.6055,advance,radical.entk.task_manager.0000-proc,MainThread,task.0034,SUBMITTED,stage.0000
+1536522888.6060,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0034,,stage.0000
+1536522888.6080,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0034,,stage.0000
+1536522888.6085,advance,radical.entk.task_manager.0000-proc,MainThread,task.0035,SUBMITTED,stage.0000
+1536522888.6091,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0035,,stage.0000
+1536522888.6112,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0035,,stage.0000
+1536522888.6116,advance,radical.entk.task_manager.0000-proc,MainThread,task.0036,SUBMITTED,stage.0000
+1536522888.6124,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0036,,stage.0000
+1536522888.6187,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0036,,stage.0000
+1536522888.6190,advance,radical.entk.task_manager.0000-proc,MainThread,task.0037,SUBMITTED,stage.0000
+1536522888.6195,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0037,,stage.0000
+1536522888.6207,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0037,,stage.0000
+1536522888.6210,advance,radical.entk.task_manager.0000-proc,MainThread,task.0038,SUBMITTED,stage.0000
+1536522888.6212,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0038,,stage.0000
+1536522888.6223,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0038,,stage.0000
+1536522888.6267,advance,radical.entk.task_manager.0000-proc,MainThread,task.0039,SUBMITTED,stage.0000
+1536522888.6275,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0039,,stage.0000
+1536522888.6389,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0039,,stage.0000
+1536522888.6395,advance,radical.entk.task_manager.0000-proc,MainThread,task.0040,SUBMITTED,stage.0000
+1536522888.6403,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0040,,stage.0000
+1536522888.6422,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0040,,stage.0000
+1536522888.6428,advance,radical.entk.task_manager.0000-proc,MainThread,task.0041,SUBMITTED,stage.0000
+1536522888.6435,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0041,,stage.0000
+1536522888.6449,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0041,,stage.0000
+1536522888.6456,advance,radical.entk.task_manager.0000-proc,MainThread,task.0042,SUBMITTED,stage.0000
+1536522888.6459,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0042,,stage.0000
+1536522888.6475,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0042,,stage.0000
+1536522888.6481,advance,radical.entk.task_manager.0000-proc,MainThread,task.0043,SUBMITTED,stage.0000
+1536522888.6487,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0043,,stage.0000
+1536522888.6511,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0043,,stage.0000
+1536522888.6517,advance,radical.entk.task_manager.0000-proc,MainThread,task.0044,SUBMITTED,stage.0000
+1536522888.6526,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0044,,stage.0000
+1536522888.6557,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0044,,stage.0000
+1536522888.6564,advance,radical.entk.task_manager.0000-proc,MainThread,task.0045,SUBMITTED,stage.0000
+1536522888.6571,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0045,,stage.0000
+1536522888.6590,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0045,,stage.0000
+1536522888.6592,advance,radical.entk.task_manager.0000-proc,MainThread,task.0046,SUBMITTED,stage.0000
+1536522888.6594,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0046,,stage.0000
+1536522888.6616,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0046,,stage.0000
+1536522888.6618,advance,radical.entk.task_manager.0000-proc,MainThread,task.0047,SUBMITTED,stage.0000
+1536522888.6620,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0047,,stage.0000
+1536522888.6634,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0047,,stage.0000
+1536522888.6636,advance,radical.entk.task_manager.0000-proc,MainThread,task.0048,SUBMITTED,stage.0000
+1536522888.6638,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0048,,stage.0000
+1536522888.6651,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0048,,stage.0000
+1536522888.6656,advance,radical.entk.task_manager.0000-proc,MainThread,task.0049,SUBMITTED,stage.0000
+1536522888.6658,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0049,,stage.0000
+1536522888.6676,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0049,,stage.0000
+1536522888.6678,advance,radical.entk.task_manager.0000-proc,MainThread,task.0050,SUBMITTED,stage.0000
+1536522888.6679,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0050,,stage.0000
+1536522888.6694,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0050,,stage.0000
+1536522888.6696,advance,radical.entk.task_manager.0000-proc,MainThread,task.0051,SUBMITTED,stage.0000
+1536522888.6698,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0051,,stage.0000
+1536522888.6710,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0051,,stage.0000
+1536522888.6712,advance,radical.entk.task_manager.0000-proc,MainThread,task.0052,SUBMITTED,stage.0000
+1536522888.6714,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0052,,stage.0000
+1536522888.6725,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0052,,stage.0000
+1536522888.6727,advance,radical.entk.task_manager.0000-proc,MainThread,task.0053,SUBMITTED,stage.0000
+1536522888.6729,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0053,,stage.0000
+1536522888.6742,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0053,,stage.0000
+1536522888.6746,advance,radical.entk.task_manager.0000-proc,MainThread,task.0054,SUBMITTED,stage.0000
+1536522888.6750,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0054,,stage.0000
+1536522888.6760,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0054,,stage.0000
+1536522888.6762,advance,radical.entk.task_manager.0000-proc,MainThread,task.0055,SUBMITTED,stage.0000
+1536522888.6764,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0055,,stage.0000
+1536522888.6773,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0055,,stage.0000
+1536522888.6775,advance,radical.entk.task_manager.0000-proc,MainThread,task.0056,SUBMITTED,stage.0000
+1536522888.6777,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0056,,stage.0000
+1536522888.6786,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0056,,stage.0000
+1536522888.6788,advance,radical.entk.task_manager.0000-proc,MainThread,task.0057,SUBMITTED,stage.0000
+1536522888.6790,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0057,,stage.0000
+1536522888.6802,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0057,,stage.0000
+1536522888.6804,advance,radical.entk.task_manager.0000-proc,MainThread,task.0058,SUBMITTED,stage.0000
+1536522888.6805,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0058,,stage.0000
+1536522888.6819,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0058,,stage.0000
+1536522888.6821,advance,radical.entk.task_manager.0000-proc,MainThread,task.0059,SUBMITTED,stage.0000
+1536522888.6823,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0059,,stage.0000
+1536522888.6837,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0059,,stage.0000
+1536522888.6839,advance,radical.entk.task_manager.0000-proc,MainThread,task.0060,SUBMITTED,stage.0000
+1536522888.6840,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0060,,stage.0000
+1536522888.6857,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0060,,stage.0000
+1536522888.6860,advance,radical.entk.task_manager.0000-proc,MainThread,task.0061,SUBMITTED,stage.0000
+1536522888.6862,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0061,,stage.0000
+1536522888.6873,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0061,,stage.0000
+1536522888.6875,advance,radical.entk.task_manager.0000-proc,MainThread,task.0062,SUBMITTED,stage.0000
+1536522888.6877,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0062,,stage.0000
+1536522888.6887,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0062,,stage.0000
+1536522888.6889,advance,radical.entk.task_manager.0000-proc,MainThread,task.0063,SUBMITTED,stage.0000
+1536522888.6890,publishing obj with state SUBMITTED for sync,radical.entk.task_manager.0000-proc,MainThread,task.0063,,stage.0000
+1536522888.6902,obj with state SUBMITTED synchronized,radical.entk.task_manager.0000-proc,MainThread,task.0063,,stage.0000
+1536523492.7988,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0000,,
+1536523492.7992,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0000,,
+1536523492.7992,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0000,EXECUTED,stage.0000
+1536523492.7999,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0000,,stage.0000
+1536523492.8019,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0000,,stage.0000
+1536523492.8091,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0001,,
+1536523492.8093,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0001,,
+1536523492.8096,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0001,EXECUTED,stage.0000
+1536523492.8100,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0001,,stage.0000
+1536523492.8141,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0001,,stage.0000
+1536523492.8237,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0002,,
+1536523492.8239,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0002,,
+1536523492.8240,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0002,EXECUTED,stage.0000
+1536523492.8244,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0002,,stage.0000
+1536523492.8258,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0002,,stage.0000
+1536523492.8336,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0003,,
+1536523492.8338,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0003,,
+1536523492.8339,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0003,EXECUTED,stage.0000
+1536523492.8344,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0003,,stage.0000
+1536523492.8364,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0003,,stage.0000
+1536523492.8443,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0004,,
+1536523492.8444,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0004,,
+1536523492.8446,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0004,EXECUTED,stage.0000
+1536523492.8450,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0004,,stage.0000
+1536523492.8463,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0004,,stage.0000
+1536523492.8532,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0006,,
+1536523492.8533,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0006,,
+1536523492.8534,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0006,EXECUTED,stage.0000
+1536523492.8540,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0006,,stage.0000
+1536523492.8558,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0006,,stage.0000
+1536523492.8624,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0005,,
+1536523492.8625,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0005,,
+1536523492.8627,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0005,EXECUTED,stage.0000
+1536523492.8631,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0005,,stage.0000
+1536523492.8653,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0005,,stage.0000
+1536523492.8728,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0007,,
+1536523492.8729,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0007,,
+1536523492.8729,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0007,EXECUTED,stage.0000
+1536523492.8736,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0007,,stage.0000
+1536523492.8764,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0007,,stage.0000
+1536523492.8827,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0009,,
+1536523492.8828,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0009,,
+1536523492.8828,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0009,EXECUTED,stage.0000
+1536523492.8830,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0009,,stage.0000
+1536523492.8848,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0009,,stage.0000
+1536523492.8906,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0008,,
+1536523492.8907,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0008,,
+1536523492.8907,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0008,EXECUTED,stage.0000
+1536523492.8912,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0008,,stage.0000
+1536523492.8928,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0008,,stage.0000
+1536523492.8989,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0010,,
+1536523492.8990,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0010,,
+1536523492.8991,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0010,EXECUTED,stage.0000
+1536523492.8996,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0010,,stage.0000
+1536523492.9019,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0010,,stage.0000
+1536523492.9073,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0011,,
+1536523492.9076,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0011,,
+1536523492.9077,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0011,EXECUTED,stage.0000
+1536523492.9082,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0011,,stage.0000
+1536523492.9099,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0011,,stage.0000
+1536523492.9153,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0013,,
+1536523492.9154,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0013,,
+1536523492.9155,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0013,EXECUTED,stage.0000
+1536523492.9157,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0013,,stage.0000
+1536523492.9183,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0013,,stage.0000
+1536523492.9242,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0012,,
+1536523492.9243,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0012,,
+1536523492.9243,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0012,EXECUTED,stage.0000
+1536523492.9247,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0012,,stage.0000
+1536523492.9260,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0012,,stage.0000
+1536523492.9317,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0014,,
+1536523492.9318,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0014,,
+1536523492.9320,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0014,EXECUTED,stage.0000
+1536523492.9323,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0014,,stage.0000
+1536523492.9343,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0014,,stage.0000
+1536523492.9402,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0016,,
+1536523492.9402,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0016,,
+1536523492.9403,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0016,EXECUTED,stage.0000
+1536523492.9405,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0016,,stage.0000
+1536523492.9423,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0016,,stage.0000
+1536523492.9485,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0015,,
+1536523492.9486,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0015,,
+1536523492.9486,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0015,EXECUTED,stage.0000
+1536523492.9489,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0015,,stage.0000
+1536523492.9512,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0015,,stage.0000
+1536523492.9600,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0017,,
+1536523492.9601,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0017,,
+1536523492.9602,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0017,EXECUTED,stage.0000
+1536523492.9606,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0017,,stage.0000
+1536523492.9625,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0017,,stage.0000
+1536523492.9683,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0018,,
+1536523492.9684,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0018,,
+1536523492.9684,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0018,EXECUTED,stage.0000
+1536523492.9686,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0018,,stage.0000
+1536523492.9708,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0018,,stage.0000
+1536523492.9778,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0020,,
+1536523492.9780,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0020,,
+1536523492.9780,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0020,EXECUTED,stage.0000
+1536523492.9784,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0020,,stage.0000
+1536523492.9801,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0020,,stage.0000
+1536523492.9869,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0019,,
+1536523492.9869,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0019,,
+1536523492.9870,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0019,EXECUTED,stage.0000
+1536523492.9876,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0019,,stage.0000
+1536523492.9899,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0019,,stage.0000
+1536523492.9968,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0021,,
+1536523492.9969,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0021,,
+1536523492.9971,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0021,EXECUTED,stage.0000
+1536523492.9974,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0021,,stage.0000
+1536523492.9989,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0021,,stage.0000
+1536523493.0049,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0023,,
+1536523493.0050,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0023,,
+1536523493.0050,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0023,EXECUTED,stage.0000
+1536523493.0053,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0023,,stage.0000
+1536523493.0066,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0023,,stage.0000
+1536523493.0134,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0022,,
+1536523493.0135,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0022,,
+1536523493.0135,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0022,EXECUTED,stage.0000
+1536523493.0139,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0022,,stage.0000
+1536523493.0170,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0022,,stage.0000
+1536523493.0232,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0024,,
+1536523493.0234,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0024,,
+1536523493.0235,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0024,EXECUTED,stage.0000
+1536523493.0239,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0024,,stage.0000
+1536523493.0288,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0024,,stage.0000
+1536523493.0356,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0025,,
+1536523493.0357,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0025,,
+1536523493.0357,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0025,EXECUTED,stage.0000
+1536523493.0363,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0025,,stage.0000
+1536523493.0383,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0025,,stage.0000
+1536523493.0446,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0027,,
+1536523493.0448,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0027,,
+1536523493.0450,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0027,EXECUTED,stage.0000
+1536523493.0454,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0027,,stage.0000
+1536523493.0481,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0027,,stage.0000
+1536523493.0540,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0026,,
+1536523493.0541,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0026,,
+1536523493.0541,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0026,EXECUTED,stage.0000
+1536523493.0546,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0026,,stage.0000
+1536523493.0568,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0026,,stage.0000
+1536523493.0638,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0028,,
+1536523493.0639,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0028,,
+1536523493.0640,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0028,EXECUTED,stage.0000
+1536523493.0645,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0028,,stage.0000
+1536523493.0724,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0028,,stage.0000
+1536523493.0789,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0030,,
+1536523493.0791,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0030,,
+1536523493.0791,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0030,EXECUTED,stage.0000
+1536523493.0795,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0030,,stage.0000
+1536523493.0830,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0030,,stage.0000
+1536523493.0990,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0029,,
+1536523493.0991,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0029,,
+1536523493.0991,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0029,EXECUTED,stage.0000
+1536523493.0995,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0029,,stage.0000
+1536523493.1007,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0029,,stage.0000
+1536523493.1074,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0031,,
+1536523493.1075,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0031,,
+1536523493.1076,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0031,EXECUTED,stage.0000
+1536523493.1082,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0031,,stage.0000
+1536523493.1118,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0031,,stage.0000
+1536523494.2575,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0032,,
+1536523494.2576,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0032,,
+1536523494.2576,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0032,EXECUTED,stage.0000
+1536523494.2581,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0032,,stage.0000
+1536523494.2597,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0032,,stage.0000
+1536523494.2656,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0034,,
+1536523494.2656,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0034,,
+1536523494.2657,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0034,EXECUTED,stage.0000
+1536523494.2661,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0034,,stage.0000
+1536523494.2681,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0034,,stage.0000
+1536523494.2741,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0033,,
+1536523494.2742,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0033,,
+1536523494.2743,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0033,EXECUTED,stage.0000
+1536523494.2744,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0033,,stage.0000
+1536523494.2764,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0033,,stage.0000
+1536523494.2823,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0035,,
+1536523494.2824,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0035,,
+1536523494.2825,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0035,EXECUTED,stage.0000
+1536523494.2827,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0035,,stage.0000
+1536523494.2856,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0035,,stage.0000
+1536523494.2916,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0037,,
+1536523494.2917,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0037,,
+1536523494.2917,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0037,EXECUTED,stage.0000
+1536523494.2921,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0037,,stage.0000
+1536523494.2948,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0037,,stage.0000
+1536523494.3028,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0036,,
+1536523494.3029,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0036,,
+1536523494.3029,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0036,EXECUTED,stage.0000
+1536523494.3031,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0036,,stage.0000
+1536523494.3071,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0036,,stage.0000
+1536523494.3126,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0038,,
+1536523494.3127,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0038,,
+1536523494.3127,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0038,EXECUTED,stage.0000
+1536523494.3129,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0038,,stage.0000
+1536523494.3150,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0038,,stage.0000
+1536523494.3209,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0039,,
+1536523494.3210,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0039,,
+1536523494.3210,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0039,EXECUTED,stage.0000
+1536523494.3212,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0039,,stage.0000
+1536523494.3235,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0039,,stage.0000
+1536523494.3308,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0041,,
+1536523494.3308,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0041,,
+1536523494.3309,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0041,EXECUTED,stage.0000
+1536523494.3311,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0041,,stage.0000
+1536523494.3328,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0041,,stage.0000
+1536523494.3393,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0040,,
+1536523494.3394,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0040,,
+1536523494.3394,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0040,EXECUTED,stage.0000
+1536523494.3396,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0040,,stage.0000
+1536523494.3410,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0040,,stage.0000
+1536523494.3475,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0042,,
+1536523494.3476,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0042,,
+1536523494.3477,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0042,EXECUTED,stage.0000
+1536523494.3483,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0042,,stage.0000
+1536523494.3495,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0042,,stage.0000
+1536523494.3563,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0043,,
+1536523494.3565,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0043,,
+1536523494.3566,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0043,EXECUTED,stage.0000
+1536523494.3572,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0043,,stage.0000
+1536523494.3597,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0043,,stage.0000
+1536523494.3778,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0045,,
+1536523494.3779,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0045,,
+1536523494.3779,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0045,EXECUTED,stage.0000
+1536523494.3781,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0045,,stage.0000
+1536523494.3797,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0045,,stage.0000
+1536523494.3862,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0044,,
+1536523494.3863,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0044,,
+1536523494.3863,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0044,EXECUTED,stage.0000
+1536523494.3867,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0044,,stage.0000
+1536523494.3919,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0044,,stage.0000
+1536523494.3986,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0046,,
+1536523494.3989,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0046,,
+1536523494.3989,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0046,EXECUTED,stage.0000
+1536523494.3993,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0046,,stage.0000
+1536523494.4131,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0046,,stage.0000
+1536523494.4194,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0048,,
+1536523494.4195,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0048,,
+1536523494.4195,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0048,EXECUTED,stage.0000
+1536523494.4197,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0048,,stage.0000
+1536523494.4217,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0048,,stage.0000
+1536523494.4293,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0047,,
+1536523494.4294,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0047,,
+1536523494.4294,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0047,EXECUTED,stage.0000
+1536523494.4299,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0047,,stage.0000
+1536523494.4354,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0047,,stage.0000
+1536523494.4416,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0049,,
+1536523494.4419,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0049,,
+1536523494.4419,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0049,EXECUTED,stage.0000
+1536523494.4423,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0049,,stage.0000
+1536523494.4439,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0049,,stage.0000
+1536523494.4497,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0051,,
+1536523494.4498,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0051,,
+1536523494.4499,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0051,EXECUTED,stage.0000
+1536523494.4501,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0051,,stage.0000
+1536523494.4516,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0051,,stage.0000
+1536523494.4695,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0050,,
+1536523494.4696,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0050,,
+1536523494.4697,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0050,EXECUTED,stage.0000
+1536523494.4701,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0050,,stage.0000
+1536523494.4844,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0050,,stage.0000
+1536523494.4915,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0052,,
+1536523494.4917,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0052,,
+1536523494.4918,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0052,EXECUTED,stage.0000
+1536523494.4923,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0052,,stage.0000
+1536523494.5024,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0052,,stage.0000
+1536523494.5087,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0053,,
+1536523494.5089,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0053,,
+1536523494.5090,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0053,EXECUTED,stage.0000
+1536523494.5094,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0053,,stage.0000
+1536523494.5147,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0053,,stage.0000
+1536523494.5222,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0054,,
+1536523494.5224,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0054,,
+1536523494.5226,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0054,EXECUTED,stage.0000
+1536523494.5229,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0054,,stage.0000
+1536523494.5250,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0054,,stage.0000
+1536523494.5344,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0056,,
+1536523494.5345,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0056,,
+1536523494.5345,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0056,EXECUTED,stage.0000
+1536523494.5348,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0056,,stage.0000
+1536523494.5364,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0056,,stage.0000
+1536523494.5424,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0055,,
+1536523494.5424,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0055,,
+1536523494.5425,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0055,EXECUTED,stage.0000
+1536523494.5427,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0055,,stage.0000
+1536523494.5441,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0055,,stage.0000
+1536523494.5503,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0057,,
+1536523494.5505,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0057,,
+1536523494.5505,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0057,EXECUTED,stage.0000
+1536523494.5507,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0057,,stage.0000
+1536523494.5527,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0057,,stage.0000
+1536523494.5604,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0058,,
+1536523494.5607,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0058,,
+1536523494.5607,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0058,EXECUTED,stage.0000
+1536523494.5611,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0058,,stage.0000
+1536523494.5631,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0058,,stage.0000
+1536523494.5693,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0060,,
+1536523494.5697,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0060,,
+1536523494.5698,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0060,EXECUTED,stage.0000
+1536523494.5700,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0060,,stage.0000
+1536523494.5795,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0060,,stage.0000
+1536523494.5858,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0059,,
+1536523494.5859,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0059,,
+1536523494.5861,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0059,EXECUTED,stage.0000
+1536523494.5866,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0059,,stage.0000
+1536523494.5920,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0059,,stage.0000
+1536523494.5981,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0061,,
+1536523494.5983,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0061,,
+1536523494.5983,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0061,EXECUTED,stage.0000
+1536523494.5989,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0061,,stage.0000
+1536523494.6014,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0061,,stage.0000
+1536523494.6086,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0063,,
+1536523494.6089,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0063,,
+1536523494.6089,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0063,EXECUTED,stage.0000
+1536523494.6093,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0063,,stage.0000
+1536523494.6121,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0063,,stage.0000
+1536523494.6196,task from cu - create,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0062,,
+1536523494.6197,task from cu - done,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0062,,
+1536523494.6197,advance,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0062,EXECUTED,stage.0000
+1536523494.6201,publishing obj with state EXECUTED for sync,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0062,,stage.0000
+1536523494.6218,obj with state EXECUTED synchronized,radical.entk.task_manager.0000-proc,umgr.0000.subscriber._state_sub_cb,task.0062,,stage.0000
+1536523495.2010,terminating tmgr process,radical.entk.task_manager.0000-proc,MainThread,task_manager.0000,,
+1536523495.2017,END,radical.entk.task_manager.0000-proc,MainThread,,,

@@ -1,0 +1,9 @@
+2018-09-09 12:54:37,643: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 12:54:37,644: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    :                      pid/tid: 9293/MainThread
+2018-09-09 12:54:37,644: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    : create state_pubsub - sub - tcp://198.202.113.101:33003
+2018-09-09 12:54:37,644: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : start process
+2018-09-09 12:54:37,644: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 12:54:37,644: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 12:54:37,644: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : process class started (no child)
+2018-09-09 13:05:17,468: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    : parent stops child  9293 -> None [state.pubsub.sub.0000]
+2018-09-09 13:05:17,469: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

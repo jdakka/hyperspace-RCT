@@ -1,0 +1,9 @@
+2018-09-09 12:19:27,260: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    : python.interpreter   version: 2.7.10 (default, Feb 1 2016, 14:30:50) [GCC 4.9.2]
+2018-09-09 12:19:27,260: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    :                      pid/tid: 4978/MainThread
+2018-09-09 12:19:27,260: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    : create agent_unschedule_pubsub - sub - tcp://198.202.113.101:40048
+2018-09-09 12:19:27,261: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : start process
+2018-09-09 12:19:27,261: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-09-09 12:19:27,261: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-09-09 12:19:27,261: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)
+2018-09-09 12:30:08,071: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : parent stops child  4978 -> None [agent.unschedule.pubsub.sub.0000]
+2018-09-09 12:30:08,072: agent.unschedule.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_finalize_parent (NOOP)
