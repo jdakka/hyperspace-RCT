@@ -15,10 +15,9 @@ class HyperSpaceTask(Task):
     def __init__(self, name, parameter):
 
         self.name = name
-        self.executable = ['/bin/sleep']
-        self.arguments = ['100']
-        # self.arguments = ['-c', '24', '-t', '600']
-        # self.arguments = ['.sh file']
+        self.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
+        self.executable = ['stress-ng'] 
+        self.arguments = ['-c', '24', '-t', '600']
       	self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 24, 'process_type': None}
 
 
@@ -31,8 +30,8 @@ if __name__ == '__main__':
 
     # define the global search space bounds for each search dimension
 
-    hparams = [(0,7), (10,17)] 
-
+    hparams = [(0,7), (10,17), (10,17), (10,17), (10,17), (10,17), (10,17), (10,17)] 
+    
     # generate all combinations of search subspaces (hyperspaces)
 
     # spaces = SpaceTask.CreateSpaces(parameters = hparams)
@@ -42,21 +41,12 @@ if __name__ == '__main__':
     s = Stage() # 1 stage of bag-of-tasks (2**H tasks)
    
 
-    for i in range((len(hparams)**2)): # for each hyperspace
+    for i, param in enumerate((len(hparams)**2)): # for each hyperspace
     
-        # t = HyperSpaceTask(name = 'optimization_{}'.format(i), parameter = i) 
+        
         # run Bayesian optimization for N-iterations in parallel
-        t = Task()
-	t.name = 'optimization_{}'.format(i)
-        t.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
-        t.executable = ['stress-ng'] 
-        t.arguments = ['-c', '24', '-t', '600']
-        # self.arguments = ['-c', '24', '-t', '600']
-        # self.arguments = ['.sh file']
-        # t.parameters = parameter
-        t.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 24, 'process_type': None}
-
-	s.add_tasks(t)
+        t = HyperSpaceTask(name = 'optimization_{}'.format(i), parameter = param)
+	    s.add_tasks(t)
 
     p.add_stages(s)
     pipelines.add(p)
@@ -69,7 +59,7 @@ if __name__ == '__main__':
     amgr.resource_desc = {
         'resource': 'xsede.bridges',
         'project' : 'MCB110096P',
-        'queue' : 'RM',
+        'queue' : 'RMS',
         'walltime': duration,
         'cpus': (len(hparams)**2)*24,
         'access_schema': 'gsissh'}
