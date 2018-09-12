@@ -1,13 +1,14 @@
 # script to create hyperspaces 
 
 from hyperspace.space import create_hyperspace
+import pickle
 
 def get_hyperspaces(parameters = None):
 
-    f = open("spaces.txt", "w")
-    hyperspace = create_hyperspace(hyperparameters)
-    f.write(hyperspace)
-    return hyperspace
+    hyperspaces = create_hyperspace(hyperparameters)
+    with open('spaces.txt', 'wb') as fp:
+        pickle.dump(hyperspaces, fp)
+    return hyperspaces
 
 
 if __name__ == '__main__':
