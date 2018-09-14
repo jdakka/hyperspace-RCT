@@ -41,16 +41,7 @@ class HyperSpaceTask(Task):
         self.executable = ['python']
         self.arguments = ['hyperspaces.py', 'hyperparameters']
         self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 1, 'process_type': None}
-        self.download_output_data = ['spaces.txt']
 
-class hyperspaces(self): 
-    def get_spaces(self):
-
-        # load hyperparameter list
-
-        with open('spaces.txt', 'rb') as fp:
-            spaces = pickle.load(fp)
-        return spaces 
 
 class OptimizationStage(Stage):
     def __init__(self, name):
@@ -58,14 +49,16 @@ class OptimizationStage(Stage):
         self.name = name    
 
 class OptimizationTask(Task):
-    def __init__(self, name, spaces):
+    def __init__(self, name, hyperspace_index):
 
         # this task will execute a Bayesian optimization
         # each task takes a unique hyperspace input  
         
         super(OptimizationTask, self).__init__()
         self.name = name
+        self.copy_input_data = ['/home/dakka/spaces.txt']
         self.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
+        self.pre_exec += ['optimization.py', 'hyperspace_index']
         self.executable = ['stress-ng'] 
         self.arguments = ['-c', '24', '-t', '6000']
         self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 24, 'process_type': None}
@@ -101,14 +94,14 @@ if __name__ == '__main__':
     # Stage 2: bag-of-tasks for Bayesian optimizations (2**H tasks) 
 
     s = OptimizationStage(name = 'optimizations') 
-    for i in len(hyperspaces.get_spaces): 
+    for i in range(len(hparams)**2): 
     
         # run Bayesian optimization in parallel
         # each optimization runs for n_iterations
 
-        t = OptimizationTask(name = 'optimization_{}'.format(i), spaces = hyperspaces.get_spaces[i])
-	s.add_tasks(t)
+        t = OptimizationTask(name = 'optimization_{}'.format(i), hyperspace_index = i)
 
+	s.add_tasks(t)
     p.add_stages(s)
     pipelines.add(p)
 
@@ -119,7 +112,6 @@ if __name__ == '__main__':
     amgr = AppManager(hostname = 'two.radical-project.org', port = 33048)
     amgr.workflow = pipelines
     amgr.shared_data = []
-
     amgr.resource_desc = {
         'resource': 'xsede.bridges',
         'project' : 'MCB110096P',
