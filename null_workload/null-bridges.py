@@ -58,7 +58,7 @@ class OptimizationTask(Task):
         self.name = name
         self.copy_input_data = ['/home/dakka/spaces.txt']
         self.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
-        self.pre_exec += ['optimization.py', 'hyperspace_index']
+        self.pre_exec += ['python optimization.py {}'.format(hyperspace_index)]
         self.executable = ['stress-ng'] 
         self.arguments = ['-c', '24', '-t', '6000']
         self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 24, 'process_type': None}
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
     # user defines the global search space bounds for each search dimension
 
-    hparams = [(0,7), (10,17), (0,2), (0,7), (10,17), (0,2), (0,7), (10,17)] 
+    hparams = [(0,7), (10,17)] 
 
     # EnTK single pipeline of two stages 
 
@@ -114,10 +114,10 @@ if __name__ == '__main__':
     amgr.shared_data = []
     amgr.resource_desc = {
         'resource': 'xsede.bridges',
-        'project' : 'MCB110096P',
-        'queue' : 'compute',
-        'walltime': duration,
-        'cpus': len(hyperspaces)*24,
+        'project' : 'mc3bggp',
+        'queue' : 'RM',
+        'walltime': walltime,
+        'cpus': len(hparams)**2*24,
         'access_schema': 'gsissh'}
        
     amgr.run()

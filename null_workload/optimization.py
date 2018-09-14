@@ -5,7 +5,7 @@ class hyperspaces(self, hyperspace_index):
 
         # load hyperparameter list
 
-        with open('spaces.txt', 'rb') as fp:
+        with open('home/dakka/spaces.txt', 'rb') as fp:
             spaces = pickle.load(fp)
         return spaces[hyperspace_index]
 
