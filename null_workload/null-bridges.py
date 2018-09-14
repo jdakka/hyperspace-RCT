@@ -38,6 +38,7 @@ class HyperSpaceTask(Task):
         super(HyperSpaceTask, self).__init__()
         self.name = name
         self.pre_exec = ['source activate ve_hyperspace']
+        self.copy_input_data = ['$SHARED/hyperspaces.py']
         self.executable = ['python']
         self.arguments = ['hyperspaces.py', 'hyperparameters']
         self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 1, 'process_type': None}
@@ -56,7 +57,7 @@ class OptimizationTask(Task):
         
         super(OptimizationTask, self).__init__()
         self.name = name
-        self.copy_input_data = ['/home/dakka/spaces.txt']
+        self.copy_input_data = ['/home/dakka/spaces.txt','$SHARED/hyperspaces.py']
         self.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
         self.pre_exec += ['python optimization.py {}'.format(hyperspace_index)]
         self.executable = ['stress-ng'] 
@@ -111,7 +112,7 @@ if __name__ == '__main__':
     # Resource and AppManager
     amgr = AppManager(hostname = 'two.radical-project.org', port = 33048)
     amgr.workflow = pipelines
-    amgr.shared_data = []
+    amgr.shared_data = ['hyperspaces.py','optimization.py']
     amgr.resource_desc = {
         'resource': 'xsede.bridges',
         'project' : 'mc3bggp',
