@@ -14,15 +14,16 @@ import radical.utils as ru
 if os.environ.get('RADICAL_ENTK_VERBOSE') == None:
     os.environ['RADICAL_ENTK_VERBOSE'] = 'INFO'
 
+logger = ru.Logger(__name__, level='DEBUG')
 
 class HyperSpacePipeline(Pipeline):
     def __init__(self, name):
-
+        super(HyperSpacePipeline, self).__init__()
         self.name = name 
 
 class HyperSpaceStage(Stage):
     def __init__(self, name):
-
+        super(HyperSpaceStage, self).__init__()
         self.name = name
         
 
@@ -33,17 +34,17 @@ class HyperSpaceTask(Task):
         # takes input hyperparameters that are defined by user 
         # and uses HyperSpace function create_hyperspace to generate a list of 
         # hyperspaces 
-
+        super(HyperSpaceTask, self).__init__()
         self.name = name
         self.pre_exec = ['source activate ve_hyperspace']
         self.executable = ['python']
-        self.arguments = ['hyperspaces.py', hyperparameters]
+        self.arguments = ['hyperspaces.py', 'hyperparameters']
         self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 1, 'process_type': None}
 
 
 class OptimizationStage(Stage):
     def __init__(self, name):
-
+        super(OptimizationStage, self).__init__()
         self.name = name    
 
 class OptimizationTask(Task):
@@ -51,7 +52,8 @@ class OptimizationTask(Task):
 
         # this task will execute a Bayesian optimization
         # each task takes a unique hyperspace input  
-
+        
+        super(OptimizationTask, self).__init__()
         self.name = name
         self.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
         self.executable = ['stress-ng'] 
@@ -79,7 +81,7 @@ if __name__ == '__main__':
     # Stage 1: generate all combinations of search subspaces (hyperspaces)
 
     s = HyperSpaceStage(name = 'generate_hyperspaces_stage')
-    t = HyperSpaceTask(name = 'generate_hyperspace_task', parameters = hparams)
+    t = HyperSpaceTask(name = 'generate_hyperspace_task', hyperparameters = hparams)
     s.add_tasks(t) 
     p.add_stages(s)
 
@@ -87,7 +89,7 @@ if __name__ == '__main__':
 
     # load hyperparameter list
 
-    with open('/home/dakka/spaces.txt/spaces.txt', 'rb') as fp:
+    with open('/home/dakka/spaces.txt', 'rb') as fp:
         spaces = pickle.load(fp)
 
 
@@ -100,7 +102,7 @@ if __name__ == '__main__':
         # each optimization runs for n_iterations
 
         t = OptimizationTask(name = 'optimization_{}'.format(i), spaces = hyperspaces[i])
-	    s.add_tasks(t)
+	s.add_tasks(t)
 
     p.add_stages(s)
     pipelines.add(p)
