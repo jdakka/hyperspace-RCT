@@ -2,7 +2,7 @@ from radical.entk import Pipeline, Stage, Task, AppManager
 import os
 import traceback
 import sys
-import pickle
+import pickle # change the pickle to json load and dump 
 import radical.utils as ru
 
 # convert tabs to spaces (no tabs)
@@ -19,8 +19,6 @@ class HyperSpacePipeline(Pipeline):
     def __init__(self, name):
 
         self.name = name 
-
-
 
 class HyperSpaceStage(Stage):
     def __init__(self, name):
@@ -75,7 +73,7 @@ if __name__ == '__main__':
     # EnTK single pipeline of two stages 
 
     pipelines = set()
-    p = HyperSpacePipeline()
+    p = HyperSpacePipeline(name = 'hyperspace_pipeline')
 
     
     # Stage 1: generate all combinations of search subspaces (hyperspaces)
@@ -89,7 +87,7 @@ if __name__ == '__main__':
 
     # load hyperparameter list
 
-    with open('spaces.txt', 'rb') as fp:
+    with open('spaces.json', 'rb') as fp:
         spaces = pickle.load(fp)
 
 
@@ -118,7 +116,7 @@ if __name__ == '__main__':
     amgr.resource_desc = {
         'resource': 'xsede.bridges',
         'project' : 'MCB110096P',
-        'queue' : 'RM',
+        'queue' : 'compute',
         'walltime': duration,
         'cpus': len(hyperspaces)*24,
         'access_schema': 'gsissh'}
