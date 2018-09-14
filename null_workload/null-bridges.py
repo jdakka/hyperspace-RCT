@@ -58,7 +58,7 @@ class OptimizationTask(Task):
         super(OptimizationTask, self).__init__()
         self.name = name
         self.copy_input_data = ['/home/dakka/spaces.txt','$SHARED/hyperspaces.py']
-        self.pre_exec = ['export PATH=/home/jdakka/stress-ng-0.09.39:$PATH']
+        self.pre_exec = ['export PATH=/home/dakka/stress-ng-0.09.39:$PATH']
         self.pre_exec += ['python optimization.py {}'.format(hyperspace_index)]
         self.executable = ['stress-ng'] 
         self.arguments = ['-c', '24', '-t', '6000']
