@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
     # load hyperparameter list
 
-    with open('spaces.json', 'rb') as fp:
+    with open('/home/dakka/spaces.txt/spaces.txt', 'rb') as fp:
         spaces = pickle.load(fp)
 
 

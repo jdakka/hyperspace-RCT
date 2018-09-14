@@ -6,7 +6,7 @@ import pickle
 def get_hyperspaces(parameters = None):
 
     hyperspaces = create_hyperspace(hyperparameters)
-    with open('spaces.txt', 'wb') as fp:
+    with open('/home/dakka/spaces.txt', 'wb') as fp: # add the location an argument save known place
         pickle.dump(hyperspaces, fp)
     return hyperspaces
 
