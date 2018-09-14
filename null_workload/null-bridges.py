@@ -34,13 +34,23 @@ class HyperSpaceTask(Task):
         # takes input hyperparameters that are defined by user 
         # and uses HyperSpace function create_hyperspace to generate a list of 
         # hyperspaces 
+
         super(HyperSpaceTask, self).__init__()
         self.name = name
         self.pre_exec = ['source activate ve_hyperspace']
         self.executable = ['python']
         self.arguments = ['hyperspaces.py', 'hyperparameters']
         self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 1, 'process_type': None}
+        self.download_output_data = ['spaces.txt']
 
+class hyperspaces(self): 
+    def get_spaces(self):
+
+        # load hyperparameter list
+
+        with open('spaces.txt', 'rb') as fp:
+            spaces = pickle.load(fp)
+        return spaces 
 
 class OptimizationStage(Stage):
     def __init__(self, name):
@@ -59,6 +69,7 @@ class OptimizationTask(Task):
         self.executable = ['stress-ng'] 
         self.arguments = ['-c', '24', '-t', '6000']
         self.cpu_reqs = {'processes': 1, 'thread_type': None, 'threads_per_process': 24, 'process_type': None}
+
 
 
 if __name__ == '__main__':
@@ -87,21 +98,15 @@ if __name__ == '__main__':
 
     logger.info('adding stage {} with {} tasks'.format(s.name, s._task_count))
 
-    # load hyperparameter list
-
-    with open('/home/dakka/spaces.txt', 'rb') as fp:
-        spaces = pickle.load(fp)
-
-
     # Stage 2: bag-of-tasks for Bayesian optimizations (2**H tasks) 
 
     s = OptimizationStage(name = 'optimizations') 
-    for i in len(spaces): 
+    for i in len(hyperspaces.get_spaces): 
     
         # run Bayesian optimization in parallel
         # each optimization runs for n_iterations
 
-        t = OptimizationTask(name = 'optimization_{}'.format(i), spaces = hyperspaces[i])
+        t = OptimizationTask(name = 'optimization_{}'.format(i), spaces = hyperspaces.get_spaces[i])
 	s.add_tasks(t)
 
     p.add_stages(s)
