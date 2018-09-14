@@ -101,8 +101,8 @@ if __name__ == '__main__':
         # each optimization runs for n_iterations
 
         t = OptimizationTask(name = 'optimization_{}'.format(i), hyperspace_index = i)
-
-	s.add_tasks(t)
+        s.add_tasks(t)
+        
     p.add_stages(s)
     pipelines.add(p)
 
