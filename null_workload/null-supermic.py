@@ -8,8 +8,6 @@ import radical.utils as ru
 import shutil
 
 
-# convert tabs to spaces (no tabs)
-
 
 # ------------------------------------------------------------------------------
 # Set default verbosity
