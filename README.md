@@ -14,4 +14,10 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 * git clone git@github.com:yngtodd/hyperspace.git
 * cd hyperspace; python setup.py install 
 ```
-* check to see if all libraries are installed (`pip freeze`) 
+
+### Installation of `mpi4py` on XSEDE Bridges using GCC compiler 
+
+* wget `mpi4py` from bitbucket
+* modify `mpi.cfg` as shown [here](https://github.com/jdakka/hyperspace-RCT/hyperspace_workload) and on [mpi4py installation](https://mpi4py.readthedocs.io/en/stable/install.html#using-pip-or-easy-install)
+* python setup.py build
+* python setup.py install
