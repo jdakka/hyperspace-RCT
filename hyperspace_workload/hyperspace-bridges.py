@@ -42,10 +42,11 @@ class OptimizationTask(Task):
         self.pre_exec    =   []
         self.pre_exec   += ['export PATH="/home/dakka/miniconda3/bin:$PATH"']
         self.pre_exec   += ['export LD_LIBRARY_PATH="/home/dakka/miniconda3/lib:$LD_LIBRARY_PATH"']
+        self.pre_exec   += ['module load mpi/gcc_openmpi']
         self.pre_exec   += ['source activate ve_hyperspace']
-        self.pre_exec   += ['module load mpi/intel_mpi'] 
+        # self.pre_exec   += ['module load mpi/intel_mpi'] 
         self.executable  = ['python']
-        self.arguments   = ['example.py', '--results_dir', 'results/skopt/space4']
+        self.arguments   = ['example.py', '--results_dir', '/home/dakka/results_15/skopt/space4']
         self.cpu_reqs    = {'processes': 4, 'thread_type': None, 'threads_per_process': 28, 'process_type': 'MPI'}
 
 
@@ -78,7 +79,7 @@ if __name__ == '__main__':
         'resource': 'xsede.bridges',
         'project' : 'mc3bggp',
         'queue' : 'RM',
-        'walltime': 10,
+        'walltime': 30,
         'cpus': (2**hparams)*28,
         'access_schema': 'gsissh'
     }
