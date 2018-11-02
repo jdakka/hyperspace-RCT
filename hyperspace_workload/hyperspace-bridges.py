@@ -38,7 +38,12 @@ class OptimizationTask(Task):
          
         super(OptimizationTask, self).__init__()
         self.name = name
-        self.copy_input_data = ['$SHARED/example.py']
+        self.copy_input_data   = []
+        self.copy_input_data  += ['$SHARED/example.py']
+        self.copy_input_data  += ['$SHARED/t10k-images-idx3-ubyte.gz']
+        self.copy_input_data  += ['$SHARED/t10k-labels-idx1-ubyte.gz']
+        self.copy_input_data  += ['$SHARED/train-images-idx3-ubyte.gz']
+        self.copy_input_data  += ['$SHARED/train-labels-idx1-ubyte.gz']
         self.pre_exec    =   []
         self.pre_exec   += ['export PATH="/home/dakka/miniconda3/bin:$PATH"']
         self.pre_exec   += ['export LD_LIBRARY_PATH="/home/dakka/miniconda3/lib:$LD_LIBRARY_PATH"']
@@ -102,7 +107,13 @@ if __name__ == '__main__':
 
     # Assign resource manager to the Application Manager
     appman.resource_desc = res_dict
-    appman.shared_data = ['%s/binaries/example.py' %cur_dir]
+    appman.shared_data   = []
+    appman.shared_data += ['/home/jdakka/hyperspace/constellation/constellation/gbm/space2/optimize.py']
+    appman.shared_data += ['/home/jdakka/hyperspace/constellation/constellation/data/fashion/t10k-images-idx3-ubyte.gz']
+    appman.shared_data += ['/home/jdakka/hyperspace/constellation/constellation/data/fashion/t10k-labels-idx1-ubyte.gz']
+    appman.shared_data += ['/home/jdakka/hyperspace/constellation/constellation/data/fashion/train-images-idx3-ubyte.gz']
+    appman.shared_data += ['/home/jdakka/hyperspace/constellation/constellation/data/fashion/train-labels-idx1-ubyte.gz']
+    appman.shared_data += ['%s/binaries/example.py' %cur_dir]
                     
     
     # Assign the workflow as a set of Pipelines to the Application Manager
