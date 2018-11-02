@@ -33,7 +33,7 @@ class OptimizationStage(Stage):
         self.name = name    
 
 class OptimizationTask(Task):
-    def __init__(self, name):
+    def __init__(self, name, results_dir):
         # this task will execute Bayesian optimizations
          
         super(OptimizationTask, self).__init__()
@@ -46,7 +46,7 @@ class OptimizationTask(Task):
         self.pre_exec   += ['source activate ve_hyperspace']
         # self.pre_exec   += ['module load mpi/intel_mpi'] 
         self.executable  = ['python']
-        self.arguments   = ['example.py', '--results_dir', '/home/dakka/results_15/skopt/space4']
+        self.arguments   = ['example.py', '--results_dir', results_dir]
         self.cpu_reqs    = {'processes': 4, 'thread_type': None, 'threads_per_process': 28, 'process_type': 'MPI'}
 
 
@@ -60,15 +60,30 @@ if __name__ == '__main__':
 
     # Stage 1: single task that spawns n_optimizations using mpirun
 
-    s = OptimizationStage(name = 'optimizations') 
+    s1 = OptimizationStage(name = 'optimizations')
 
-    t = OptimizationTask(name = 'optimizations using example.py')
+    t1 = OptimizationTask(name = 'analysis_1', results_dir = '/pylon5/mc3bggp/dakka/hyperspace_data/results_1/skopt/space4') 
 
-    s.add_tasks(t)
-    p.add_stages(s)
+    s1.add_tasks(t1)
+    p.add_stages(s1)
+
+    s2 = OptimizationStage(name = 'optimizations')
+
+    t2 = OptimizationTask(name = 'analysis_2', results_dir = '/pylon5/mc3bggp/dakka/hyperspace_data/results_2/skopt/space4' )
+
+    s2.add_tasks(t2)
+    p.add_stages(s2)
         
 
-    logger.info('adding stage {} with {} tasks'.format(s.name, s._task_count))
+    s3 = OptimizationStage(name = 'optimizations')
+
+    t3 = OptimizationTask(name = 'analysis_3', results_dir = '/pylon5/mc3bggp/dakka/hyperspace_data/results_3/skopt/space4')
+
+    s3.add_tasks(t3)
+    p.add_stages(s3)
+        
+
+    logger.info('adding stage {} with {} tasks'.format(s1.name, s1._task_count))
     logger.info('adding pipeline {} with {} stages'.format(p.name, p._stage_count))
 
     # Create Application Manager
@@ -79,7 +94,7 @@ if __name__ == '__main__':
         'resource': 'xsede.bridges',
         'project' : 'mc3bggp',
         'queue' : 'RM',
-        'walltime': 30,
+        'walltime': 90,
         'cpus': (2**hparams)*28,
         'access_schema': 'gsissh'
     }
