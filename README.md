@@ -17,6 +17,13 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 * Check for existing conda envs: `conda info --envs`
 ```
 
+### `OpenMM` specific installations for `CUDA`
+
+```
+* export OPENMM_CUDA_COMPILER=`which nvcc`
+* python -m simtk.testInstallation
+```
+
 
 ### Installation of `mpi4py` on XSEDE Bridges using GCC compiler 
 
