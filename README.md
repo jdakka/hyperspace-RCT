@@ -14,6 +14,7 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 * conda install -c omnia -c conda-forge openmm
 * git clone git@github.com:yngtodd/hyperspace.git
 * cd hyperspace; python setup.py install 
+* <Check for existing conda envs: `conda info --envs`
 ```
 
 
