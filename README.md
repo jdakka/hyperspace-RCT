@@ -11,7 +11,7 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 * conda create --name <VE name> python=3.6
 * source activate /home/dakka/.conda/envs/<VE name> or source activate <VE name>
 * conda install scikit-learn
-* conda install -c omnia -c conda-forge openmm
+* conda install -c omnia/label/cuda92 -c conda-forge openmm
 * git clone git@github.com:yngtodd/hyperspace.git
 * cd hyperspace; python setup.py install 
 * Check for existing conda envs: `conda info --envs`
@@ -20,6 +20,7 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 ### `OpenMM` specific installations for `CUDA`
 
 ```
+* module load cuda/9.2 
 * export OPENMM_CUDA_COMPILER=`which nvcc`
 * python -m simtk.testInstallation
 ```
