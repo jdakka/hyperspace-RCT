@@ -4,30 +4,14 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 
 ### Installation on `xsede.bridges` via miniconda2
 
-
-```
-* wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-* bash Miniconda3-latest-Linux-x86_64.sh
-* conda create --name <VE name> python=3.6
-* source activate /home/dakka/.conda/envs/<VE name> or source activate <VE name>
-* conda install scikit-learn
-* conda install -c omnia/label/cuda92 -c conda-forge openmm
-* git clone git@github.com:yngtodd/hyperspace.git
-* cd hyperspace; python setup.py install 
-* Check for existing conda envs: `conda info --envs`
-```
-
-### Installation on `xsede.bridges` via miniconda3
-
 ```
 * wget <miniconda2> https://conda.io/en/latest/miniconda.html 
 * bash Miniconda2-latest-Linux-x86_64.sh
 * conda create --name <ve_name> python=2.7 
 * source activate <ve_name>
-
-
-
 ```
+
+### Installation on `xsede.bridges` via miniconda3
 
 ```
 * wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
