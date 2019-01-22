@@ -11,6 +11,8 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 * cd /pylon5/mc3bggp/dakka
 * conda create --name <ve_name> python=2.7 
 * source activate <ve_name>
+* module load cuda/9.0
+* module load keras/2.2.0_tf1.7_py2_gpu tensorflow/1.7_py2_gpu
 ```
 
 ### Installation on `xsede.bridges` via miniconda3
