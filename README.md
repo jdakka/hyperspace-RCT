@@ -33,6 +33,7 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 
 ```
 * module load cuda/9.0
+* conda install -c omnia/label/cuda90 -c conda-forge openmm
 * export OPENMM_CUDA_COMPILER=`which nvcc`
 * python -m simtk.testInstallation
 ```
