@@ -7,6 +7,8 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 ```
 * wget <miniconda2> https://conda.io/en/latest/miniconda.html 
 * bash Miniconda2-latest-Linux-x86_64.sh
+* module load python2/2.7.11_gcc
+* cd /pylon5/mc3bggp/dakka
 * conda create --name <ve_name> python=2.7 
 * source activate <ve_name>
 ```
