@@ -32,7 +32,7 @@ Distributed Bayesian Hyperparameter Optimization using RCT
 ### `OpenMM` specific installations for `CUDA`
 
 ```
-* module load cuda/9.2 
+* module load cuda/9.0
 * export OPENMM_CUDA_COMPILER=`which nvcc`
 * python -m simtk.testInstallation
 ```
